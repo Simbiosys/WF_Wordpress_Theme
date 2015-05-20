@@ -542,6 +542,34 @@ function custom_post_types() {
 			'rewrite' => array( 'slug' => 'about/research', 'with_front' => false ),
 		)
 	);
+	
+	// Annual reports
+
+	register_post_type( 'annual_report',
+		array(
+			'public' => true,
+			'labels' => array(
+				'name' => __( 'Annual Reports' ),
+				'singular_name' => __( 'Annual Report' ),
+				'add_new' => __( 'Add New' ),
+				'add_new_item' => __( 'Add Annual Report' ),
+				'edit' => __( 'Edit' ),
+				'edit_item' => __( 'Edit Annual Report' ),
+				'new_item' => __( 'New Annual Report' ),
+				'view' => __( 'View Annual Report' ),
+				'view_item' => __( 'View Annual Report' ),
+				'search_items' => __( 'Search Annual Reports' ),
+				'not_found' => __( 'No Annual Reports found' ),
+				'not_found_in_trash' => __( 'No Annual Reports found in Trash' ),
+				'parent' => __( 'Parent Annual Report' ),
+				'all_items' => __( 'All Annual Reports' ),
+			),
+			'menu_icon' => get_stylesheet_directory_uri() . '/img/report.png',
+			'hierarchical' => false,
+			'supports' => array( 'title', 'editor', 'thumbnail', 'revisions' ),
+			'rewrite' => array( 'slug' => 'about/annual-reports', 'with_front' => false ),
+		)
+	);
 
 	flush_rewrite_rules();
 }
@@ -1226,6 +1254,52 @@ function save_goal_meta_box($post_id, $post, $update) {
 }
 
 add_action("save_post", "save_goal_meta_box", 10, 3);
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//                              Annual Report custom meta info
+//////////////////////////////////////////////////////////////////////////////////////////
+
+function annual_report_meta_box_markup($object) {
+    wp_nonce_field(basename(__FILE__), "meta-box-nonce");
+
+    ?>
+        <?= get_meta_style() ?>
+        
+        <div>
+        	<label for="meta-box-date">Date</label>
+            <input name="meta-box-date" type="text" value="<?php echo get_post_meta($object->ID, "meta-box-date", true); ?>" class="w100" />
+            <label for="meta-box-url">URL</label>
+            <input name="meta-box-url" type="text" value="<?php echo get_post_meta($object->ID, "meta-box-url", true); ?>" class="w100" />
+        </div>
+    <?php
+}
+
+function annual_report_add_custom_meta_box() {
+    add_meta_box("annual_report-meta-box", "Annual Report Extra Info", "annual_report_meta_box_markup", "annual_report", "side", "high", null);
+}
+
+add_action("add_meta_boxes", "annual_report_add_custom_meta_box");
+
+function save_annual_report_meta_box($post_id, $post, $update) {
+    if (!isset($_POST["meta-box-nonce"]) || !wp_verify_nonce($_POST["meta-box-nonce"], basename(__FILE__)))
+        return $post_id;
+
+    if (!current_user_can("edit_post", $post_id))
+        return $post_id;
+
+    if (defined("DOING_AUTOSAVE") && DOING_AUTOSAVE)
+        return $post_id;
+
+    $slug = "annual_report";
+
+    if ($slug != $post->post_type)
+        return $post_id;
+
+    save_meta_box_field($post_id, "meta-box-date");
+    save_meta_box_field($post_id, "meta-box-url");
+}
+
+add_action("save_post", "save_annual_report_meta_box", 10, 3);
 
 //////////////////////////////////////////////////////////////////////////////////////////
 //                                   Page custom meta info

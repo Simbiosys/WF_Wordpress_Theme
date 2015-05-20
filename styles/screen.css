@@ -3067,6 +3067,49 @@ div.mce_inline_error {
   background-repeat: no-repeat;
   padding-left: 20px;
   padding-right: 20px;
+  min-height: 135px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003250}}
+.ar-book {
+  width: 180px;
+  height: 258px;
+  overflow: hidden;
+  margin: 0 auto;
+  /* Mask: */
+  background: #efefef;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.29);
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003250}}
+  .ar-book {
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003265}}
+.blq-ar-book {
+  clear: both;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003265}}
+  .blq-ar-book {
+    clear: none;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003272}}
+.ar-content {
+  clear: both;
+  padding-top: 15px;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003272}}
+  .ar-content {
+    clear: none;
+    padding-top: 0px;
+  }
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\000034}}
@@ -3810,9 +3853,10 @@ div.mce_inline_error {
   bottom: 0;
   left: 0;
   right: 0;
+  min-height: 120px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000329}}
 .new-highlight-box-light {
   background-color: #E6EDD5, #F0B59F, #B3DEE7, #FFE2F3, #D09F9F, #7A94AE, #E6EDD5, #F0B59F, #B3DEE7;
   margin-bottom: 30px;
@@ -3821,85 +3865,85 @@ div.mce_inline_error {
   background-size: auto 130%;
   background-repeat: no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000337}}
 .new-highlight-box-light .inner-box {
   padding: 170px 20px 20px 20px;
   background-size: cover;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000346}}
 .news-column:nth-child(1) .new-highlight-box-light {
   background-color: #E6EDD5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000346}}
 .news-column:nth-child(2) .new-highlight-box-light {
   background-color: #F0B59F;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000346}}
 .news-column:nth-child(3) .new-highlight-box-light {
   background-color: #B3DEE7;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000346}}
 .news-column:nth-child(4) .new-highlight-box-light {
   background-color: #FFE2F3;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000346}}
 .news-column:nth-child(5) .new-highlight-box-light {
   background-color: #D09F9F;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000346}}
 .news-column:nth-child(6) .new-highlight-box-light {
   background-color: #7A94AE;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000346}}
 .news-column:nth-child(1) .new-highlight-box-light {
   background-color: #E6EDD5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000346}}
 .news-column:nth-child(2) .new-highlight-box-light {
   background-color: #F0B59F;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000346}}
 .news-column:nth-child(3) .new-highlight-box-light {
   background-color: #B3DEE7;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000355}}
 .news-column:nth-child(1) .new-highlight-box {
   background-color: #28517A;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000355}}
 .news-column:nth-child(2) .new-highlight-box {
   background-color: #4DAABE;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000355}}
 .news-column:nth-child(3) .new-highlight-box {
   background-color: #7AA328;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000355}}
 .news-column:nth-child(4) .new-highlight-box {
   background-color: #7A2828;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000361}}
 .news-filter {
   padding-left: 10px;
   padding-right: 10px;
   background-color: rgba(239, 239, 239, 0.5);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000367}}
 .selector {
   width: 100%;
   padding: 10px 48px 10px 8px;
@@ -3923,35 +3967,35 @@ div.mce_inline_error {
   margin-bottom: 15px;
 }
 @media (min-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000367}}
   .selector {
     margin-bottom: 0;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000398}}
 .new-brief {
   min-height: 320px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\00003102}}
 .news-no-result {
   text-align: center;
   color: #666;
   padding: 200px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\00003108}}
 .input-daterange {
   height: 46px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\00003111}}
 .input-daterange input {
   height: 46px;
   border: none;
   font-size: inherit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\00003117}}
 .input-daterange span.input-group-addon {
   border: none;
   color: #aaa;

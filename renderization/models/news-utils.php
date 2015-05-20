@@ -304,6 +304,8 @@ class NewsUtil {
    	   		}
    	   	}
    	   	
+   	   	usort($tags, array('NewsUtil', 'cmpTags'));
+   	   	
    	   	$post["tags"] = $tags;
 	}
 	
@@ -359,6 +361,16 @@ class NewsUtil {
 		}
 
 		return ($a_tag < $b_tag) ? 1 : -1;
+	}
+	
+	function cmpTags($a, $b) {
+		$a_title = $a["title"];
+		$b_title = $b["title"];
+
+		if ($a_title == $b_title)
+			return 0;
+		
+		return ($a_title < $b_title) ? 1 : -1;
 	}
 }
 ?>
