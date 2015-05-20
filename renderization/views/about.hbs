@@ -1,0 +1,115 @@
+
+
+	<!-- INTRO BLOCK -->
+	<div class="main-intro-section mintro-section-c-green txt-c overfh m-xl-bottom">
+		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
+			<h3 class="no-m-top m-xs-bottom fbold">{{#labels}}{{about_us}}{{/labels}}</h3>
+			<h4 class="m-s-bottom m-xs-top">{{#labels}}{{connecting_people}}{{/labels}}</h4>
+			<div class="c-s-separator-intro c-obj"></div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- SUBNAVS -->
+	<div class="global-content clearb overfh">
+
+		<div class="sunav-left hidden-sm hidden-xs">
+
+			<div class="c-subnav">
+
+				{{{navigation-about-us}}}
+
+			</div><!--end c-subnav-->
+
+		</div>
+
+
+
+
+		{{>social}}
+
+
+
+
+
+		<!--CONTENT BLOCK-->
+		<div class="container-max-height">
+
+		<div class="container-fluid pos-content p-xxl-bottom main-content-st">
+
+
+			<div class="row m-l-bottom">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<nav>
+						<ul class="n-breadscrumb">
+							<li class="item-bs displayb"><a href="{{host}}" class="item-a-bs avisibility">{{#labels}}{{home}}{{/labels}}</a></li>
+							<li class="item-bs displayb"><a href="#bs" class="item-a-bs item-a-bs-active">{{#labels}}{{about_us_breadcrumb}}{{/labels}}</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!--end Breadcrumb-->
+
+
+			<div class="row">
+
+				<div class="col-lg-12 col-md-12 col-sm-12 f-merryw no-p-lat-mob">
+
+
+					<div class="intro-secc-img-big m-s-bottom" style="background-image:url({{data.about.content.image}});">
+						<div class="intro-sec-img-content hidden-xs">
+							<p class="c-contrast no-m-bottom txt-xl highlighted">{{{data.about.content.highlighted}}}</p>
+						</div>
+						<div class="intro-secc-img-protector hidden-xs"></div>
+					</div>
+					<p class="text-right m-right c-g40 txt-s">{{{data.about.content.credits}}}</p>
+
+					<div class="adj-content-mobile post-container">
+						{{{data.about.content.content}}}
+					</div><!--end adj-content-mobile-->
+
+				</div>
+
+			</div>
+
+
+			<div class="row m-s-top">
+
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+					<div class="ad-st ad-st-getinvolved">
+
+						<div class="ad-st-content">
+							<h4 class="no-m-bottom txt-xxl"><a href="#getinvolved" class="acontrast">{{#labels}}{{support_us}}{{/labels}}</a></h4>
+							<p><a href="#getinvolved" class="acontrast">{{#labels}}{{donate_volunteer}}{{/labels}}</a></p>
+						</div>
+
+						<div class="ad-st-protector"></div>
+					</div>
+
+				</div>
+
+
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<article class="content-new">
+						<h4 class="no-m-bottom no-m-top"><a href="{{data.about.post.url}}" class="avisibility">{{data.about.post.title}}</a></h4>
+						<p class="c-new-info m-xs-bottom m-xs-top"><span class="c-new-date c-g40 fmed">{{data.about.post.date}}</span> &middot; <a href="{{data.about.post.author.url}}" class="c-new-author avisibility">{{data.about.post.author.name}}</a></p>
+						<p class="c-new-intro f-merryw">
+							{{{data.about.post.short_content}}}
+						</p>
+					</article>
+				</div>
+
+
+			</div>
+
+		</div>
+		<!--end container block-->
+
+		</div>
+
+
+	</div><!--end global content-->

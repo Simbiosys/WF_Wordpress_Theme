@@ -1,0 +1,95 @@
+	<!-- INTRO BLOCK -->
+	<div class="main-intro-section mintro-section-c-blueb txt-c overfh m-xl-bottom">
+		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
+			<h3 class="no-m-top m-xs-bottom fbold">{{#labels}}{{piece_of_news}}{{/labels}}</h3>
+			<div class="c-s-separator-intro c-obj"></div>
+		</div>
+	</div>
+
+	<!-- SUBNAVS -->
+	<div class="global-content clearb overfh">
+
+		<div class="sunav-left hidden-sm hidden-xs">
+
+			<div class="c-subnav">
+				{{{navigation-about-us}}}
+			</div><!--end c-subnav-->
+
+		</div>
+
+		{{>social}}
+
+		<!--CONTENT BLOCK-->
+		<div class="container-max-height">
+
+				<div class="container-fluid pos-content p-xxl-bottom main-content-st">
+
+					<div class="row m-l-bottom">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<nav>
+								<ul class="n-breadscrumb">
+									<li class="item-bs displayb"><a href="{{host}}" class="item-a-bs avisibility">{{#labels}}{{home}}{{/labels}}</a></li>
+									<li class="item-bs displayb"><a href="{{host}}/about" class="item-a-bs avisibility">{{#labels}}{{about_us_breadcrumb}}{{/labels}}</a></li>
+									<li class="item-bs displayb"><a href="{{host}}/news" class="item-a-bs avisibility">{{#labels}}{{research_breadcrumb}}{{/labels}}</a></li>
+									<li class="item-bs displayb item-a-bs item-a-bs-active">{{data.post.title}}</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<!--end Breadcrumb-->
+
+			<!--		<div class="row m-l-bottom">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<nav class="post-tags">
+								<ul>
+									{{#tags}}
+										<li><a href="{{url}}">{{data.post.name}}</a></li>
+									{{/tags}}
+								</ul>
+							</nav>
+						</div>
+					</div>-->
+
+					<div class="row">
+
+						{{#if data.post.image}}
+						<div class="intro-secc-img-big m-s-bottom" style="background-image:url({{data.post.image}});">
+							<div class="intro-secc-img-protector hidden-xs"></div>
+						</div>
+						<p class="text-right m-right c-g40 txt-s">{{{data.post.credits}}}</p>
+						{{/if}}
+
+						<div class="col-lg-12 col-md-12 col-sm-12 f-merryw post-container large">
+							<h2 class="no-m-top m-xs-bottom fbold text-center m-l-bottom">{{data.post.title}}</h2>
+							<h4 class="m-s-bottom m-xs-top m-xxl-bottom text-center"><span class="fw-mlh">{{data.post.date}}</span></h4>
+							{{{data.post.content}}}
+						</div>
+
+					</div>
+
+
+					<div class="row m-s-top">
+
+						{{#if data.post.previous}}
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<span class="c-g60 uppc txt-xs m-s-bottom">Previous Post</span>
+							<a href="{{data.post.previous.url}}" class="new-nav displayb txt-c p-xl-top p-xl-bottom acontrast"><strong class="txt-l">{{data.post.previous.title}}</strong> <span class="displayb">{{data.post.previous.author.name}} &middot; <span class="fw-mlh">{{data.post.previous.date}}</span></span></a>
+						</div>
+						{{/if}}
+
+						{{#if data.post.next}}
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<span class="c-g60 uppc txt-xs m-s-bottom">Next Post</span>
+							<a href="{{data.post.next.url}}" class="new-nav displayb txt-c p-xl-top p-xl-bottom acontrast"><strong class="txt-l">{{data.post.next.title}}</strong> <span class="displayb">{{data.post.next.author.name}} &middot; <span class="fw-mlh">{{data.post.next.date}}</span></span></a>
+						</div>
+						{{/if}}
+
+					</div>
+
+				</div>
+		<!--end container block-->
+
+		</div>
+
+
+	</div><!--end global content-->

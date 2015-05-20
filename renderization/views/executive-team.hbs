@@ -1,0 +1,705 @@
+	<!-- INTRO BLOCK -->
+	<div class="main-intro-section mintro-section-c-green txt-c overfh m-xl-bottom">
+		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
+			<h3 class="no-m-top m-xs-bottom fbold">{{#labels}}{{team}}{{/labels}}</h3>
+			<h4 class="m-s-bottom m-xs-top">{{#labels}}{{web_foundation_team}}{{/labels}}</h4>
+			<div class="c-s-separator-intro c-obj"></div>
+		</div>
+	</div>
+
+	<!-- SUBNAVS -->
+	<div class="global-content clearb overfh">
+
+		<div class="sunav-left hidden-sm hidden-xs">
+
+			<div class="c-subnav">
+
+				{{{navigation-about-us}}}
+
+			</div><!--end c-subnav-->
+
+		</div>
+
+		{{>social}}
+
+		<!--CONTENT BLOCK-->
+		<div class="container-max-height">
+
+			<div class="container-fluid pos-content p-xxl-bottom main-content-st">
+
+
+				<div class="row m-l-bottom">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<nav>
+							<ul class="n-breadscrumb">
+								<li class="item-bs displayb"><a href="{{host}}" class="item-a-bs avisibility">{{#labels}}{{home}}{{/labels}}</a></li>
+								<li class="item-bs displayb"><a href="{{host}}/about" class="item-a-bs avisibility">{{#labels}}{{about_us_breadcrumb}}{{/labels}}</a></li>
+								<li class="item-bs displayb item-a-bs item-a-bs-active">{{#labels}}{{team_breadcrumb}}{{/labels}}</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<!--end Breadcrumb-->
+
+				<div class="row">
+
+					<div class="col-lg-12 col-md-12 col-sm-12">
+
+						<div class="team-grid overfh">
+
+							<div class="gird-dk visible-lg">
+
+								{{#if data.team-1.0}}
+								<div class="b-team b-team-large fleft" style="background-image: url({{data.team-1.0.image}});">
+									<div class="b-team-qview p-s-bottom p-l-top">
+										<a href="{{data.team-1.0.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.0.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.0.position}}</span></a>
+									</div>
+									<div class="b-team-overlay txt-c">
+										<div class="b-team-tglance">
+											<a href="{{data.team-1.0.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+										</div>
+									</div>
+								</div>
+								{{/if}}
+
+								<div class="b-team fleft">
+
+									{{#if data.team-1.1}}
+									<div class="b-team-content b-team-small displayb" style="background-image: url({{data.team-1.1.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.1.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.1.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.1.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.1.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+									{{#if data.team-1.2}}
+									<div class="b-team-content b-team-small  displayb" style="background-image: url({{data.team-1.2.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.2.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.2.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.2.position}}</span></a>
+										</div>
+
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.2.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+								</div>
+
+
+								<div class="b-team fleft">
+
+									{{#if data.team-1.3}}
+									<div class="b-team-content b-team-small displayb" style="background-image: url({{data.team-1.3.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.3.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.3.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.3.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.3.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+									{{#if data.team-1.4}}
+									<div class="b-team-content b-team-small displayb" style="background-image: url({{data.team-1.4.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.4.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.4.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.4.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.4.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+								</div>
+
+								{{#if data.team-1.5}}
+								<div class="b-team b-team-large fleft p-l-top" style="background-image: url({{data.team-1.5.image}});">
+									<div class="b-team-qview p-s-bottom p-l-top">
+										<a href="{{data.team-1.5.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.5.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.5.position}}</span></a>
+									</div>
+									<div class="b-team-overlay txt-c">
+										<div class="b-team-tglance">
+											<a href="{{data.team-1.5.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+										</div>
+									</div>
+								</div>
+								{{/if}}
+
+
+							</div><!--end grid-dk 1-->
+
+
+							<div class="grid-mb hidden-lg">
+
+								<div class="clearb">
+
+									{{#if data.team-1.0}}
+									<a href="{{data.team-1.0.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.0.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.0.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.0.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.1}}
+									<a href="{{data.team-1.1.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.1.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.1.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.1.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.2}}
+									<a href="{{data.team-1.2.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.2.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.2.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.2.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+								</div>
+
+								<div class="clearb">
+
+									{{#if data.team-1.3}}
+									<a href="{{data.team-1.3.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.3.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.3.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.3.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.4}}
+									<a href="{{data.team-1.4.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.4.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.4.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.4.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.5}}
+									<a href="{{data.team-1.5.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.5.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.5.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.5.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+								</div>
+
+							</div><!--end grid-mb 1-->
+
+							<div class="gird-dk visible-lg">
+
+								<div class="b-team fleft">
+
+									{{#if data.team-1.6}}
+									<div class="b-team-content b-team-small displayb" style="background-image: url({{data.team-1.6.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.6.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.6.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.6.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.6.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+									{{#if data.team-1.7}}
+									<div class="b-team-content b-team-small  displayb" style="background-image: url({{data.team-1.7.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.7.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.7.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.7.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.7.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+								</div>
+
+								{{#if data.team-1.8}}
+								<div class="b-team b-team-large fleft" style="background-image: url({{data.team-1.8.image}});">
+									<div class="b-team-qview p-s-bottom p-l-top">
+										<a href="{{data.team-1.8.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.8.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.8.position}}</span></a>
+									</div>
+									<div class="b-team-overlay txt-c">
+										<div class="b-team-tglance">
+											<a href="{{data.team-1.8.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+										</div>
+									</div>
+								</div>
+								{{/if}}
+
+								<div class="b-team fleft">
+
+									{{#if data.team-1.9}}
+									<div class="b-team-content b-team-small displayb" style="background-image: url({{data.team-1.9.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.9.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.9.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.9.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.9.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+									{{#if data.team-1.10}}
+									<div class="b-team-content b-team-small displayb" style="background-image: url({{data.team-1.10.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.10.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.10.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.10.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.10.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+								</div>
+
+								{{#if data.team-1.11}}
+								<div class="b-team b-team-large fleft p-l-top" style="background-image: url({{data.team-1.11.image}});">
+									<div class="b-team-qview p-s-bottom p-l-top">
+										<a href="{{data.team-1.11.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.11.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.11.position}}</span></a>
+									</div>
+									<div class="b-team-overlay txt-c">
+										<div class="b-team-tglance">
+											<a href="{{data.team-1.11.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+										</div>
+									</div>
+								</div>
+								{{/if}}
+
+
+							</div><!--end grid-dk 2-->
+
+
+							<div class="grid-mb hidden-lg">
+
+								<div class="clearb">
+
+									{{#if data.team-1.6}}
+									<a href="{{data.team-1.6.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.6.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.6.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.6.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.7}}
+									<a href="{{data.team-1.7.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.7.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.7.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.7.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.8}}
+									<a href="{{data.team-1.8.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.8.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.8.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.8.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+								</div>
+
+
+								<div class="clearb">
+
+									{{#if data.team-1.9}}
+									<a href="{{data.team-1.9.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.9.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.9.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.9.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.10}}
+									<a href="{{data.team-1.10.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.10.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.10.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.10.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.11}}
+									<a href="{{data.team-1.11.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.11.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.11.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.11.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+								</div>
+
+							</div><!--end grid-mb 2-->
+
+
+							<div class="gird-dk visible-lg">
+
+								{{#if data.team-1.12}}
+								<div class="b-team b-team-large fleft" style="background-image: url({{data.team-1.12.image}});">
+									<div class="b-team-qview p-s-bottom p-l-top">
+										<a href="{{data.team-1.12.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.12.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.12.position}}</span></a>
+									</div>
+									<div class="b-team-overlay txt-c">
+										<div class="b-team-tglance">
+											<a href="{{data.team-1.12.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+										</div>
+									</div>
+								</div>
+								{{/if}}
+
+								<div class="b-team fleft">
+
+									{{#if data.team-1.13}}
+									<div class="b-team-content b-team-small displayb" style="background-image: url({{data.team-1.13.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.13.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.13.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.13.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.13.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+									{{#if data.team-1.14}}
+									<div class="b-team-content b-team-small  displayb" style="background-image: url({{data.team-1.14.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.14.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.14.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.14.position}}</span></a>
+										</div>
+
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.14.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+								</div>
+
+
+								<div class="b-team fleft">
+
+									{{#if data.team-1.15}}
+									<div class="b-team-content b-team-small displayb" style="background-image: url({{data.team-1.15.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.15.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.15.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.15.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.15.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+									{{#if data.team-1.16}}
+									<div class="b-team-content b-team-small displayb" style="background-image: url({{data.team-1.16.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.16.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.16.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.16.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.16.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+								</div>
+
+								{{#if data.team-1.17}}
+								<div class="b-team b-team-large fleft p-l-top" style="background-image: url({{data.team-1.17.image}});">
+									<div class="b-team-qview p-s-bottom p-l-top">
+										<a href="{{data.team-1.17.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.17.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.17.position}}</span></a>
+									</div>
+									<div class="b-team-overlay txt-c">
+										<div class="b-team-tglance">
+											<a href="{{data.team-1.17.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+										</div>
+									</div>
+								</div>
+								{{/if}}
+
+
+							</div><!--end grid-dk 1-->
+
+
+							<div class="grid-mb hidden-lg">
+
+								<div class="clearb">
+
+									{{#if data.team-1.12}}
+									<a href="{{data.team-1.12.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.12.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.12.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.12.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.13}}
+									<a href="{{data.team-1.13.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.13.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.13.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.13.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.14}}
+									<a href="{{data.team-1.14.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.14.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.14.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.14.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+								</div>
+
+								<div class="clearb">
+
+									{{#if data.team-1.15}}
+									<a href="{{data.team-1.15.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.15.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.15.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.15.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.16}}
+									<a href="{{data.team-1.16.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.16.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.16.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.16.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.17}}
+									<a href="{{data.team-1.17.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.17.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.17.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.17.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+								</div>
+
+							</div><!--end grid-mb 1-->
+
+
+							<div class="gird-dk visible-lg">
+
+								<div class="b-team fleft">
+
+									{{#if data.team-1.18}}
+									<div class="b-team-content b-team-small displayb" style="background-image: url({{data.team-1.18.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.18.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.18.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.18.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.18.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+									{{#if data.team-1.19}}
+									<div class="b-team-content b-team-small  displayb" style="background-image: url({{data.team-1.19.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.19.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.19.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.19.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.19.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+								</div>
+
+								{{#if data.team-1.20}}
+								<div class="b-team b-team-large fleft" style="background-image: url({{data.team-1.20.image}});">
+									<div class="b-team-qview p-s-bottom p-l-top">
+										<a href="{{data.team-1.20.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.20.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.20.position}}</span></a>
+									</div>
+									<div class="b-team-overlay txt-c">
+										<div class="b-team-tglance">
+											<a href="{{data.team-1.20.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+										</div>
+									</div>
+								</div>
+								{{/if}}
+
+								<div class="b-team fleft">
+
+									{{#if data.team-1.21}}
+									<div class="b-team-content b-team-small displayb" style="background-image: url({{data.team-1.21.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.21.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.21.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.21.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.21.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+									{{#if data.team-1.22}}
+									<div class="b-team-content b-team-small displayb" style="background-image: url({{data.team-1.22.image}});">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="{{data.team-1.22.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.22.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.22.position}}</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="{{data.team-1.22.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									{{/if}}
+
+								</div>
+
+								{{#if data.team-1.23}}
+								<div class="b-team b-team-large fleft p-l-top" style="background-image: url({{data.team-1.23.image}});">
+									<div class="b-team-qview p-s-bottom p-l-top">
+										<a href="{{data.team-1.23.url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{data.team-1.23.name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{data.team-1.23.position}}</span></a>
+									</div>
+									<div class="b-team-overlay txt-c">
+										<div class="b-team-tglance">
+											<a href="{{data.team-1.23.url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+										</div>
+									</div>
+								</div>
+								{{/if}}
+
+
+							</div><!--end grid-dk 2-->
+
+
+							<div class="grid-mb hidden-lg">
+
+								<div class="clearb">
+
+									{{#if data.team-1.18}}
+									<a href="{{data.team-1.18.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.18.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.18.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.18.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.19}}
+									<a href="{{data.team-1.19.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.19.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.19.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.19.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.20}}
+									<a href="{{data.team-1.20.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.20.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.20.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.20.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+								</div>
+
+
+								<div class="clearb">
+
+									{{#if data.team-1.21}}
+									<a href="{{data.team-1.21.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.21.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.21.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.21.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.22}}
+									<a href="{{data.team-1.22.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.22.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.22.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.22.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+									{{#if data.team-1.23}}
+									<a href="{{data.team-1.23.url}}" class="b-team b-team-small fleft" style="background-image: url({{data.team-1.23.image}});">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">{{data.team-1.23.name}}</strong> <span class="displayb txt-c txt-xs uppc c-g20">{{data.team-1.23.position}}</span>
+										</span>
+									</a>
+									{{/if}}
+
+								</div>
+
+							</div><!--end grid-mb 2-->
+
+
+							<!-- The remainder -->
+
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12">
+									<div class="team-grid overfh">
+										<div class="gird-dk remainder-team">
+											{{#data.team-2}}
+												<div class="b-team fleft">
+													<div class="b-team-content b-team-small fleft" style="background-image: url({{image}});">
+														<div class="b-team-qview p-s-bottom p-l-top">
+															<a href="{{url}}" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">{{name}}</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">{{position}}</span></a>
+														</div>
+														<div class="b-team-overlay txt-c">
+															<div class="b-team-tglance">
+																<a href="{{url}}" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											{{/data.team-2}}
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div><!--end team-grid -->
+
+					</div>
+
+				</div>
+
+
+			</div><!--end container block-->
+
+
+		</div>
+
+
+	</div><!--end global content-->

@@ -1,0 +1,63 @@
+	<!-- INTRO BLOCK -->
+	<div class="main-intro-section mintro-section-c-green txt-c overfh m-xl-bottom">
+		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
+			<h3 class="no-m-top m-xs-bottom fbold">{{data.content.title}}</h3>
+			<div class="c-s-separator-intro c-obj"></div>
+		</div>
+	</div>
+
+	<!-- SUBNAVS -->
+	<div class="global-content clearb overfh">
+
+		{{>social}}
+
+		<!--CONTENT BLOCK-->
+		<div class="container-max-height">
+
+		<div class="container-fluid pos-content p-xxl-bottom main-content-st">
+
+
+			<div class="row m-l-bottom">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<nav>
+						<ul class="n-breadscrumb">
+							<li class="item-bs displayb"><a href="{{host}}" class="item-a-bs avisibility">{{#labels}}{{home}}{{/labels}}</a></li>
+							<li class="item-bs displayb"><span class="item-a-bs item-a-bs-active">{{data.content.title}}</span></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!--end Breadcrumb-->
+
+
+			<div class="row">
+
+				<div class="col-lg-12 col-md-12 col-sm-12 f-merryw no-p-lat-mob">
+
+					{{#if data.content.image}}
+					<div class="intro-secc-img-big m-s-bottom" style="background-image:url({{data.content.image}});">
+						<div class="intro-sec-img-content hidden-xs">
+							<p class="c-contrast no-m-bottom txt-xl highlighted">{{{data.content.highlighted}}}</p>
+						</div>
+						<div class="intro-secc-img-protector hidden-xs"></div>
+					</div>
+					<p class="text-right m-right c-g40 txt-s">{{{data.content.credits}}}</p>
+					{{else}}
+					<p class="c-contrast no-m-bottom txt-xl">{{{data.about.content.highlighted}}}</p>
+					{{/if}}
+
+					<div class="adj-content-mobile post-container">
+						{{{data.content.content}}}
+					</div><!--end adj-content-mobile-->
+
+				</div>
+
+			</div>
+
+		</div>
+		<!--end container block-->
+
+		</div>
+
+
+	</div><!--end global content-->

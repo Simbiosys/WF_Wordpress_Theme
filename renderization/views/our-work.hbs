@@ -1,0 +1,140 @@
+	<!-- INTRO BLOCK -->
+	<div class="main-intro-section mintro-section-c-blueb txt-c overfh m-xl-bottom">
+		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
+			<h3 class="no-m-top m-xs-bottom fbold">{{#labels}}{{our_work}}{{/labels}}</h3>
+			<h4 class="m-s-bottom m-xs-top">{{#labels}}{{mission_strategy}}{{/labels}}</h4>
+			<div class="c-s-separator-intro c-obj"></div>
+		</div>
+	</div>
+
+	<!--CONTENT BLOCK-->
+
+	<div class="container">
+
+		<div class="row m-l-bottom">
+
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<nav>
+					<ul class="n-breadscrumb">
+						<li class="item-bs displayb"><a href="index.html" class="item-a-bs avisibility">{{#labels}}{{home}}{{/labels}}</a></li>
+						<li class="item-bs displayb"><a href="#bs" class="item-a-bs item-a-bs-active">{{#labels}}{{our_work_breadcrumb}}{{/labels}}</a></li>
+					</ul>
+				</nav>
+			</div>
+
+		</div>
+		<!--end Breadcrumb-->
+
+	</div>
+
+	<div class="container-fluid r-pos" id="issues-container">
+
+		<div class="row">
+
+			{{#data.our-work}}
+			<div class="col-lg-4 col-md-4 col-sm-12 b-right adj-intro-resp col-change no-p-lat-mob col-issue" id="col-{{identifier}}" data-id="{{identifier}}">
+
+				<div class="issues-content-preview p-xxl-bottom" id="prev-{{identifier}}">
+					<div class="intro-secc-img-small intro-secc-img-{{identifier}}" style="background-image: url({{image}});">
+						<div class="intro-sec-img-content c-contrast">
+							<h2 class="no-m-bottom txt-xxl"><a href="#readmore" class="btn-readm acontrast" data-id="{{identifier}}">{{name}}</a></h2>
+						</div>
+						<div class="intro-secc-img-protector"></div>
+						<p class="text-right txt-s img-credits">{{{credits}}}</p>
+					</div>
+					<div class="line-sep line-sep-{{index}}">
+						<span class="line-arrow line-arrow-{{index}}"></span>
+					</div>
+
+					<div class="adj-content-mobile">
+						<p class="m-s-top f-merryw m-xxl-bottom">{{title}}</p>
+						<a href="#" class="wf-btn wf-btn-success m-l-top txt-c btn-readm" data-id="{{identifier}}">Read more</a>
+					</div>
+				</div>
+
+				<div class="issues-content-expand p-xxl-bottom hddn" id="cont-{{identifier}}">
+
+					<div class="intro-secc-img-med intro-secc-img-{{identifier}}" style="background-image: url({{image}});">
+						<span class="btn-close-issue close-issue" data-id="{{identifier}}"></span>
+						<div class="intro-sec-img-content c-contrast visible-md visible-lg">
+							<h2 class="no-m-bottom">{{name}}</h2>
+							<p class="no-m-bottom m-s-top">{{title}}</p>
+						</div>
+						<div class="intro-secc-img-protector"></div>
+					</div>
+
+					<div class="adj-issues-mobile">
+
+						<div class="visible-xs visible-sm">
+							<h2 class="no-m-bottom">{{name}}</h2>
+							<p class="no-m-bottom m-xs-top">{{title}}</p>
+						</div>
+
+						<div class="post-container f-merryw m-l-top">
+							{{{content}}}
+						</div>
+
+						{{#if projects}}
+							<h4 class="displayb m-l-top p-m-top b-top">The <span class="uppc fbold">Projects</span></h4>
+							<ul class="list-projects">
+								{{#projects}}
+								<li class="item-prj">
+									<a href="{{url}}" class="a-golink avisibility"><span class="icon-golink-line"></span> {{title}}</a>
+									<p>{{{subtitle}}}</p>
+								</li>
+								{{/projects}}
+							</ul>
+						{{/if}}
+
+						{{#if news}}
+							<h4 class="displayb m-s-top p-m-top b-top">Latest <span class="uppc fbold">News</span></h4>
+							<article class="content-new">
+								<ul class="list-projects">
+									{{#news}}
+									<li class="item-prj">
+										<h5 class="no-m-bottom no-m-top"><a href="{{url}}" class="avisibility">{{title}}</a></h5>
+										<p class="c-new-info m-xs-bottom m-xs-top"><span class="c-new-date c-g40 fmed">{{date}}</span> &middot; <a href="{{author.url}}" class="c-new-author avisibility">{{author.name}}</a></p>
+										<p class="c-new-intro f-merryw">{{{short_content}}}</p>
+									</li>
+									{{/news}}
+								</ul>
+							</article>
+						{{/if}}
+
+						<a href="#The-issues" class="wf-btn wf-btn-neutral m-l-top txt-c btn-close-issue" data-id="{{identifier}}">Show less</a>
+
+					</div><!-- end adj-issues-->
+
+				</div><!--end issues content expand -->
+
+			</div><!--end -->
+			{{/data.our-work}}
+
+		</div><!--end row-->
+
+		<div class="overlay-issues"></div>
+
+	</div><!--end container block-->
+
+	<div class="bg-g20_50 m-xxl-top">
+		<div class="container-fluid">
+
+			<div class="row p-xl-bottom">
+
+				{{#data.our-work}}
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<h4 class="displayb no-m-top c-blue p-l-top b-t-{{index}}">{{name}}</h4>
+					<ul class="list-simple">
+						{{#projects}}
+							<li class="li-ls"><a href="{{url}}" class="avisibility">{{title}}</a></li>
+						{{/projects}}
+					</ul>
+				</div>
+				{{/data.our-work}}
+
+			</div>
+
+		</div>
+	</div>
+
+	<script src="{{path}}/js/our-work.js"></script>

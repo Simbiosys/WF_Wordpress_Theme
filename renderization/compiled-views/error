@@ -1,0 +1,166 @@
+<?php return function ($in, $debugopt = 1) {
+    $cx = array(
+        'flags' => array(
+            'jstrue' => false,
+            'jsobj' => false,
+            'spvar' => false,
+            'prop' => false,
+            'method' => false,
+            'mustlok' => false,
+            'echo' => false,
+            'debug' => $debugopt,
+        ),
+        'constants' =>  array(
+            'DEBUG_ERROR_LOG' => 1,
+            'DEBUG_ERROR_EXCEPTION' => 2,
+            'DEBUG_TAGS' => 4,
+            'DEBUG_TAGS_ANSI' => 12,
+            'DEBUG_TAGS_HTML' => 20,
+        ),
+        'helpers' => array(),
+        'blockhelpers' => array(),
+        'hbhelpers' => array(),
+        'partials' => array(),
+        'scopes' => array(),
+        'sp_vars' => array('root' => $in),
+        'lcrun' => 'LCRun3',
+'funcs' => array(
+    'sec' => function ($cx, $v, $in, $each, $cb, $else = null) {
+        $isAry = is_array($v);
+        $isTrav = $v instanceof Traversable;
+        $loop = $each;
+        $keys = null;
+        $last = null;
+        $isObj = false;
+
+        if ($isAry && $else !== null && count($v) === 0) {
+            $cx['scopes'][] = $in;
+            $ret = $else($cx, $in);
+            array_pop($cx['scopes']);
+            return $ret;
+        }
+
+        // #var, detect input type is object or not
+        if (!$loop && $isAry) {
+            $keys = array_keys($v);
+            $loop = (count(array_diff_key($v, array_keys($keys))) == 0);
+            $isObj = !$loop;
+        }
+
+        if (($loop && $isAry) || $isTrav) {
+            if ($each && !$isTrav) {
+                // Detect input type is object or not when never done once
+                if ($keys == null) {
+                    $keys = array_keys($v);
+                    $isObj = (count(array_diff_key($v, array_keys($keys))) > 0);
+                }
+            }
+            $ret = array();
+            $cx['scopes'][] = $in;
+            $i = 0;
+            if ($cx['flags']['spvar']) {
+                $old_spvar = $cx['sp_vars'];
+                $cx['sp_vars'] = array(
+                    '_parent' => $old_spvar,
+                    'root' => $old_spvar['root'],
+                );
+                if (!$isTrav) {
+                    $last = count($keys) - 1;
+                }
+            }
+            foreach ($v as $index => $raw) {
+                if ($cx['flags']['spvar']) {
+                    $cx['sp_vars']['first'] = ($i === 0);
+                    $cx['sp_vars']['last'] = ($i == $last);
+                    $cx['sp_vars']['key'] = $index;
+                    $cx['sp_vars']['index'] = $i;
+                    $i++;
+                }
+                $ret[] = $cb($cx, $raw);
+            }
+            if ($cx['flags']['spvar']) {
+                if ($isObj) {
+                    unset($cx['sp_vars']['key']);
+                } else {
+                    unset($cx['sp_vars']['last']);
+                }
+                unset($cx['sp_vars']['index']);
+                unset($cx['sp_vars']['first']);
+                $cx['sp_vars'] = $old_spvar;
+            }
+            array_pop($cx['scopes']);
+            return join('', $ret);
+        }
+        if ($each) {
+            if ($else !== null) {
+                $cx['scopes'][] = $in;
+                $ret = $else($cx, $v);
+                array_pop($cx['scopes']);
+                return $ret;
+            }
+            return '';
+        }
+        if ($isAry) {
+            $cx['scopes'][] = $in;
+            $ret = $cb($cx, $v);
+            array_pop($cx['scopes']);
+            return $ret;
+        }
+
+        if ($v === true) {
+            return $cb($cx, $in);
+        }
+
+        if (!is_null($v) && ($v !== false)) {
+            return $cb($cx, $v);
+        }
+
+        if ($else !== null) {
+            $cx['scopes'][] = $in;
+            $ret = $else($cx, $in);
+            array_pop($cx['scopes']);
+            return $ret;
+        }
+
+        return '';
+    },
+)
+
+    );
+    
+    return '	<!-- INTRO BLOCK -->
+	<div class="main-intro-section mintro-section-c-green txt-c overfh m-xl-bottom">
+		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
+			<h3 class="no-m-top m-xs-bottom fbold">'.$cx['funcs']['sec']($cx, ((isset($in['labels']) && is_array($in)) ? $in['labels'] : null), $in, false, function($cx, $in) {return ''.htmlentities((string)((isset($in['whoops']) && is_array($in)) ? $in['whoops'] : null), ENT_QUOTES, 'UTF-8').'';}).'</h3>
+			<h4 class="m-s-bottom m-xs-top">'.$cx['funcs']['sec']($cx, ((isset($in['labels']) && is_array($in)) ? $in['labels'] : null), $in, false, function($cx, $in) {return ''.htmlentities((string)((isset($in['something_wrong']) && is_array($in)) ? $in['something_wrong'] : null), ENT_QUOTES, 'UTF-8').'';}).'</h4>
+			<div class="c-s-separator-intro c-obj"></div>
+		</div>
+	</div>
+
+	<!-- SUBNAVS -->
+	<div class="global-content clearb overfh">
+
+		<!--CONTENT BLOCK-->
+		<div class="container-max-height">
+
+				<div class="container-fluid pos-content p-xxl-bottom main-content-st">
+
+					<div class="row">
+
+						<div class="col-lg-12 col-md-12 col-sm-12 f-merryw large text-center txt-xxl m-xxl-bottom">
+							<img src="'.htmlentities((string)((isset($in['path']) && is_array($in)) ? $in['path'] : null), ENT_QUOTES, 'UTF-8').'/img/404-error-image.png" alt="Error 404" class="m-xxl-top m-xxl-bottom" />
+							<h4 class="text-center txt-xxl m-l-bottom c-g40">'.htmlentities((string)((isset($in['labels']['keep_calm']) && is_array($in['labels'])) ? $in['labels']['keep_calm'] : null), ENT_QUOTES, 'UTF-8').'</h4>
+						</div>
+
+					</div>
+
+				</div>
+		<!--end container block-->
+
+		</div>
+
+
+	</div><!--end global content-->
+';
+}
+?>

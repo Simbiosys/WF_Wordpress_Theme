@@ -1,0 +1,132 @@
+	<!-- INTRO BLOCK -->
+	<div class="main-intro-section mintro-section-c-green txt-c overfh m-xl-bottom">
+		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
+			<h3 class="no-m-top m-xs-bottom fbold">{{data.person.name}}</h3>
+			<h4 class="m-s-bottom m-xs-top">{{data.person.position}}</h4>
+			<div class="c-s-separator-intro c-obj"></div>
+		</div>
+	</div>
+
+	<!-- SUBNAVS -->
+	<div class="global-content clearb overfh">
+
+		<div class="sunav-left hidden-sm hidden-xs">
+
+			<div class="c-subnav">
+
+	      {{{navigation-about-us}}}
+
+	    </div><!--end c-subnav-->
+
+		</div>
+
+		{{>social}}
+
+		<!--CONTENT BLOCK-->
+		<div class="container-max-height">
+
+			<div class="container-fluid pos-content p-xxl-bottom main-content-st">
+
+
+				<div class="row m-l-bottom">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<nav>
+							<ul class="n-breadscrumb">
+								<li class="item-bs displayb"><a href="{{host}}" class="item-a-bs avisibility">{{#labels}}{{home}}{{/labels}}</a></li>
+								<li class="item-bs displayb"><a href="{{host}}/about" class="item-a-bs avisibility">{{#labels}}{{about_us_breadcrumb}}{{/labels}}</a></li>
+								<li class="item-bs displayb"><a href="{{host}}/about/boards" class="item-a-bs avisibility">{{#labels}}{{boards_breadcrumb}}{{/labels}}</a></li>
+								<li class="item-bs displayb item-a-bs item-a-bs-active">{{data.person.name}}</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<!--end Breadcrumb-->
+
+				<div class="row m-xxl-bottom">
+
+					<div class="col-lg-12 col-md-12 col-sm-12 f-merryw no-p-lat-mob">
+
+						<div class="team-bio">
+
+							<div class="adj-content-mobile f-merryw">
+
+								<div class="team-bio-picture visible-lg" style="background-image: url({{data.person.image}});"></div>
+								{{{data.person.description}}}
+							</div><!--end adj-content-mobile-->
+
+						</div>
+
+					</div>
+
+
+					<div class="col-lg-12 col-md-12 col-sm-12 p-l-top p-l-bottom b-bottom hidden-xs">
+
+						<div class="displayib fleft txt-l m-s-top">
+							{{#if data.person.email}}
+								<a href="mailto:{{data.person.email}}" class="avisibility"><span class="icon-mail adj-icon-svg"></span> {{data.person.email}}</a>
+							{{/if}}
+						</div>
+						<div class="displayib fright text-right">
+							{{#if data.person.linkedin}}
+								<a href="{{data.person.linkedin}}" class="displayib fleft ico-round-social ico-rs-linkedin acontrast txt-l"><span class="icon-linkedin"></span></a>
+							{{/if}}
+							{{#if data.person.twitter}}
+								<a href="https://twitter.com/{{data.person.twitter}}" class="displayib fleft ico-round-social ico-rs-twitter acontrast txt-l"><span class="icon-twitter"></span></a>
+							{{/if}}
+							{{#if data.person.google}}
+								<a href="https://plus.google.com/{{data.person.google}}" class="displayib fleft ico-round-social ico-rs-gplus acontrast txt-l"><span class="icon-gplus"></span></a>
+							{{/if}}
+							{{#if data.person.facebook}}
+								<a href="https://www.facebook.com/{{data.person.facebook}}" class="displayib fleft ico-round-social ico-rs-facebook acontrast txt-l"><span class="icon-facebook"></span></a>
+							{{/if}}
+						</div>
+					</div>
+
+					<div class="col-lg-12 col-md-12 col-sm-12 p-l-top p-l-bottom b-bottom visible-xs">
+
+						<div class="displayb txt-c txt-l m-s-top"><a href="mailto:{{data.person.email}}" class="avisibility"><span class="icon-mail adj-icon-svg"></span> {{data.person.email}}</a></div>
+						<div class="displayb txt-c m-l-top">
+							{{#if data.person.linkedin}}
+								<a href="https://www.linkedin.com/in/{{data.person.linkedin}}" class="displayib ico-round-social ico-rs-linkedin acontrast txt-l"><span class="icon-linkedin"></span></a>
+							{{/if}}
+							{{#if data.person.twitter}}
+								<a href="https://twitter.com/{{data.person.twitter}}" class="displayib ico-round-social ico-rs-twitter acontrast txt-l"><span class="icon-twitter"></span></a>
+							{{/if}}
+							{{#if data.person.google}}
+								<a href="https://plus.google.com/{{data.person.google}}" class="displayib ico-round-social ico-rs-gplus acontrast txt-l"><span class="icon-gplus"></span></a>
+							{{/if}}
+						</div>
+					</div>
+
+				</div>
+				<!--
+				<div class="row">
+
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  m-l-bottom">
+
+						<h4 class="displayb no-m-top">Latest <span class="uppc fbold">News</span></h4>
+						<article class="content-new m-s-top ">
+							<h4 class="no-m-bottom no-m-top"><a href="#content-new" class="avisibility">Guest blog: Reprioritising #SectionJ: ICTs and women’s rights</a></h4>
+							<p class="c-new-info m-xs-bottom m-xs-top"><span class="c-new-date c-g40 fmed">March 13, 2015</span> &middot; <a href="#goauthor" class="c-new-author avisibility">Web Foundation</a></p>
+							<p class="c-new-intro f-merryw">In this guest blog for the World Wide Web Foundation, Sara Baker from <a href="#external" class="a-external avisibility" target="_blank" title="External link, opens in new window">Take Back the Tech!</a> discusses women and the Web.</p>
+						</article>
+
+					</div>
+
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<h4 class="displayb no-m-top">Latest <span class="uppc fbold">Research</span></h4>
+						<p class="c-new-intro f-merryw">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eleifend tincidunt malesuada. Duis sodales sodales tortor, vitae pretium sapien dictum sed.</p>
+						<ul class="li-icon">
+							<li class="item-icon displayb item-icon-pdf b-bottom"><a href="#" class="displayb">Research Result <span class="displayb txt-s c-g40">PDF Format</span></a></li>
+							<li class="item-icon displayb item-icon-html"><a href="#" class="displayb">Research report <span class="displayb txt-s c-g40">HTML Format</span></a></li>
+						</ul>
+					</div>
+
+				</div>
+				-->
+
+			</div><!--end container block-->
+
+		</div>
+
+	</div><!--end global content-->

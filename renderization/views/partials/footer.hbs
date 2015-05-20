@@ -1,0 +1,92 @@
+<footer class="footer b-top">
+
+  <div class="container p-s-top p-s-bottom">
+
+    <div class="row">
+
+      <div class="col-lg-12">
+
+        <div class="bottom-nav txt-c">
+
+          <div class="bottom-logo displayib fleft"><h1 class="no-m-bottom no-m-top adj-mb-logo-bottom"><a href="#index" class="txt-ind displayb bottom-logo-h n-outl">World Wide Web Foundation</a></h1></div>
+
+          <div class="area-donate fright">
+            <a href="{{host}}/take-action" class="wf-btn wf-btn-action adj-btn-ac-top">{{#labels}}{{donate}}{{/labels}}</a>
+          </div>
+
+          <nav class="displayib c-obj nav-res">
+            {{{navigation}}}
+          </nav>
+
+        </div>
+
+      </div><!--end col-->
+
+    </div><!--end row-->
+
+  </div><!--end container-->
+
+
+  <div class="footer-tools p-s-top p-s-bottom b-top">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-12">
+
+          <!-- visible on desktop -->
+          <div class="displayib fleft t-spread-the-word p-xs-top hidden-xs hidden-sm hidden-md">
+            <span class="lbl-spread displayib txt-xs c-g40">{{#labels}}{{spread_the_word}}{{/labels}}</span>
+            <a href="{{host}}/feed" class="displayib spread-block spread-rss">RSS</a>
+            <a href="https://www.facebook.com/webfoundation" class="displayib spread-block spread-facebook">facebook</a>
+            <a href="https://twitter.com/webfoundation" class="displayib spread-block spread-twitter">twitter</a>
+          </div>
+
+          <p class="c-g40 txt-xs displayib fright footer-copy hidden-xs hidden-sm hidden-md"> &copy;{{#labels}}{{signature}}{{/labels}} | <a href="{{host}}/about/terms-of-use">{{#labels}}{{privacy}}{{/labels}}</a></p>
+
+
+
+          <!-- visible on tablet  - mobile -->
+          <div class="displayb t-spread-the-word p-xs-top hidden-lg txt-c p-xs-bottom">
+            <div class="displayb overfh c-obj p-s-bottom">
+              <span class="lbl-spread displayib txt-xs c-g40">{{#labels}}{{spread_the_word}}{{/labels}}</span>
+              <a href="{{host}}/feed" class="displayib spread-block spread-rss">RSS</a>
+              <a href="https://www.facebook.com/webfoundation" class="displayib spread-block spread-facebook">facebook</a>
+              <a href="https://twitter.com/webfoundation" class="displayib spread-block spread-twitter">twitter</a>
+            </div>
+          </div>
+
+          <div class="hidden-lg overfh p-s-bottom">
+            <p class="c-g40 txt-xs displayb b-top txt-c footer-copy m-xs-bottom"> &copy;{{#labels}}{{signature}}{{/labels}}</p>
+            <span class="displayb txt-xs overfh txt-c"><a href="{{host}}/about/terms-of-use">{{#labels}}{{privacy}}{{/labels}}</a></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+</footer>
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    //Carousel init
+    $(".carousel-about-foundation").owlCarousel({
+      responsive: {
+        0: {
+          items: 4
+        },
+        1700: {
+          items: 5
+        }
+      }
+    });
+
+
+  });
+</script>
+</body>
+</html>

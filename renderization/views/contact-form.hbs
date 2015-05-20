@@ -1,0 +1,111 @@
+	<!-- INTRO BLOCK -->
+	<div class="main-intro-section mintro-section-c-blue txt-c overfh m-xl-bottom">
+		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
+			<h3 class="no-m-top m-xs-bottom fbold">{{#labels}}{{contact_us}}{{/labels}}</h3>
+			<h4 class="m-s-bottom m-xs-top">{{#labels}}{{contact_media_resources}}{{/labels}}</h4>
+			<div class="c-s-separator-intro c-obj"></div>
+		</div>
+	</div>
+
+	<!-- SUBNAVS -->
+	<div class="global-content clearb overfh">
+
+		<div class="sunav-left hidden-sm hidden-xs">
+
+			<div class="c-subnav">
+
+				{{{navigation-contact-us}}}
+
+			</div><!--end c-subnav-->
+
+		</div>
+
+		{{>social}}
+
+		<!--CONTENT BLOCK-->
+		<div class="container-max-height">
+
+		<div class="container-fluid pos-content p-xxl-bottom main-content-st">
+
+
+			<div class="row m-l-bottom">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<nav>
+						<ul class="n-breadscrumb">
+							<li class="item-bs displayb"><a href="{{host}}" class="item-a-bs avisibility">{{#labels}}{{home}}{{/labels}}</a></li>
+							<li class="item-bs displayb"><a href="#bs" class="item-a-bs">{{#labels}}{{contact_us_breadcrumb}}{{/labels}}</a></li>
+							<li class="item-bs displayb"><a href="#bs" class="item-a-bs item-a-bs-active">{{#labels}}{{contact_form}}{{/labels}}</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!--end Breadcrumb-->
+
+			<div class="alert alert-warning text-center" id="required-alert" role="alert">{{labels.all_required_fields}}</div>
+
+			<div class="alert alert-danger text-center" id="email-error" role="alert">{{labels.email_error}}</div>
+
+			<div class="alert alert-success text-center" id="email-sent" role="alert">{{labels.email_sent}}</div>
+
+			<form method="POST" action="{{path}}/send.php" class="contact-form" id="contact-form">
+
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="form-group">
+					    <label for="name">{{labels.name}} <span class="required"></span></label>
+					    <input type="text" class="form-control" id="name" name="name" placeholder="{{labels.enter_name}}" required>
+					  </div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="form-group">
+					    <label for="email">{{labels.email_address}} <span class="required"></span></label>
+					    <input type="email" class="form-control" id="email" name="email" placeholder="{{labels.enter_email}}" required>
+					  </div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="form-group">
+					    <label for="telephone">{{labels.telephone}}</label>
+					    <input type="tel" class="form-control" id="telephone" name="telephone" placeholder="{{labels.enter_telephone}}">
+					  </div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="form-group">
+					    <label for="subject">{{labels.subject}} <span class="required"></span></label>
+					    <input type="text" class="form-control" id="subject" name="subject" placeholder="{{labels.enter_subject}}" required>
+					  </div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<label for="message">{{labels.message}} <span class="required"></span></label>
+						<textarea class="form-control" id="message" name="message" required></textarea>
+					</div>
+				</div>
+
+				<div class="row m-l-top">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<input type="submit" class="wf-btn wf-btn-success" value="{{labels.send_message}}" />
+					</div>
+				</div>
+
+				<div class="row m-l-top">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center required-fields">
+						<span class="required"></span> {{labels.required_fields}}
+					</div>
+				</div>
+
+			</form>
+
+		</div>
+		<!--end container block-->
+
+		</div>
+
+
+	</div><!--end global content-->
+
+	<script src="{{path}}/js/contact.js"></script>

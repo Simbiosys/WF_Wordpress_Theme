@@ -1,0 +1,61 @@
+	<!-- INTRO BLOCK -->
+	<div class="main-intro-section mintro-section-c-green txt-c overfh m-xl-bottom">
+		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
+			<h3 class="no-m-top m-xs-bottom fbold">{{#labels}}{{job_opportunities}}{{/labels}}</h3>
+			<h4 class="m-s-bottom m-xs-top">{{#labels}}{{work_with_us}}{{/labels}}</h4>
+			<div class="c-s-separator-intro c-obj"></div>
+		</div>
+	</div>
+
+
+	<!-- SUBNAVS -->
+	<div class="global-content clearb overfh">
+
+		<div class="sunav-left hidden-sm hidden-xs">
+
+			<div class="c-subnav">
+
+				{{{navigation-about-us}}}
+
+			</div><!--end c-subnav-->
+
+		</div>
+
+
+		{{>social}}
+
+
+		<!--CONTENT BLOCK-->
+		<div class="container-max-height">
+
+		<div class="container-fluid pos-content p-xxl-bottom main-content-st">
+
+
+			<div class="row m-l-bottom">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<nav>
+						<ul class="n-breadscrumb">
+							<li class="item-bs displayb"><a href="{{host}}" class="item-a-bs avisibility">{{#labels}}{{home}}{{/labels}}</a></li>
+							<li class="item-bs displayb"><a href="#bs" class="item-a-bs">{{#labels}}{{about_us_breadcrumb}}{{/labels}}</a></li>
+							<li class="item-bs displayb"><a href="#bs" class="item-a-bs item-a-bs-active">{{#labels}}{{job_opportunities_breadcrumb}}{{/labels}}</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!--end Breadcrumb-->
+
+
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 post-container post-jobs">
+					{{{data.jobs.content}}}
+				</div>
+			</div>
+
+
+		</div>
+		<!--end container block-->
+
+		</div>
+
+
+	</div><!--end global content-->

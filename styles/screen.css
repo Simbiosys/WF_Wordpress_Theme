@@ -1,0 +1,4024 @@
+@charset "UTF-8";
+/*
+Theme Name: Web Foundation
+Theme URI: http://webfoundation.org
+Author: Simbiosys
+Author URI: http://simbiosys.es
+Description:
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Web Foundation, webfoundation, world, wide, web, berners-lee
+Text Domain: webfoundation
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\000032}}
+.m-xs-top {
+  margin-top: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\000036}}
+.m-s-top {
+  margin-top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000310}}
+.m-mtop {
+  margin-top: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000314}}
+.m-l-top {
+  margin-top: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000318}}
+.m-xl-top {
+  margin-top: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000322}}
+.m-xxl-top {
+  margin-top: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000326}}
+.m-xs-bottom {
+  margin-bottom: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000330}}
+.m-s-bottom {
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000334}}
+.m-m-bottom {
+  margin-bottom: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000338}}
+.m-l-bottom {
+  margin-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000342}}
+.m-xl-bottom {
+  margin-bottom: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000346}}
+.m-xxl-bottom {
+  margin-bottom: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000350}}
+.m-right-xs {
+  margin-right: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000354}}
+.m-left-xs {
+  margin-left: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000358}}
+.m-left {
+  margin-left: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000362}}
+.m-right {
+  margin-right: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000366}}
+.no-m-top {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000370}}
+.no-m-bottom {
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000374}}
+.test {
+  padding-top: 200px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000382}}
+.p-xs-top {
+  padding-top: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000386}}
+.p-s-top {
+  padding-top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000390}}
+.p-m-top {
+  padding-top: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000394}}
+.p-l-top {
+  padding-top: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\0000398}}
+.p-xl-top {
+  padding-top: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003102}}
+.p-xxl-top {
+  padding-top: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003106}}
+.p-xs-bottom {
+  padding-bottom: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003110}}
+.p-s-bottom {
+  padding-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003114}}
+.p-m-bottom {
+  padding-bottom: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003118}}
+.p-l-bottom {
+  padding-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003122}}
+.p-xl-bottom {
+  padding-bottom: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003126}}
+.p-xxl-bottom {
+  padding-bottom: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003130}}
+.no-p-right {
+  padding-right: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003134}}
+.no-p-left {
+  padding-left: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003141}}
+.lh-s {
+  line-height: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003151}}
+.a-no-transform:hover, .a-no-transform:active, .a-no-transform:focus, .a-no-transform:visited {
+  color: inherit;
+  opacity: 0.8;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003157}}
+.resp-img {
+  width: 100% !important;
+  max-height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003162}}
+.uppc {
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003166}}
+.flight {
+  font-weight: lighter;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003170}}
+.fmed {
+  font-weight: 300;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003174}}
+.fwnormal {
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003178}}
+.fbold {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003182}}
+.click {
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003186}}
+.displayb {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003190}}
+.displayib {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003194}}
+.clearb {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003198}}
+.overfh {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003202}}
+.txt-ind {
+  display: block;
+  text-indent: -9999px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003207}}
+.txt-c {
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003211}}
+.txt-rg {
+  text-align: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003215}}
+.txt-lf {
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003219}}
+.hddn {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003223}}
+.c-obj {
+  margin: 0 auto !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003227}}
+.no-format {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003232}}
+.no-radius {
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003238}}
+.n-outl {
+  outline: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003242}}
+.br-inside {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003248}}
+.txt-b {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003253}}
+.b-top {
+  border-top: 1px solid #EFEFEF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003257}}
+.b-bottom {
+  border-bottom: 1px solid #EFEFEF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003261}}
+.b-bottom-sep {
+  border-bottom: 2px solid #999;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003265}}
+.b-bottom-lh {
+  border-bottom: 1px solid #333;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003269}}
+.b-bottom-lh-mb {
+  border-bottom: 1px solid #333;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003269}}
+  .b-bottom-lh-mb {
+    border-bottom: none;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003276}}
+.no-border {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003280}}
+.b-left {
+  border-left: 1px solid #EFEFEF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003284}}
+.b-right {
+  border-right: 1px solid #EFEFEF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003288}}
+.n-padding {
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003292}}
+.n-margin {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003296}}
+.no-p-lat {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003301}}
+.no-p-lat-mob {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003301}}
+  .no-p-lat-mob {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003310}}
+.no-p-lat-tablet {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003310}}
+  .no-p-lat-tablet {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003319}}
+.p-content {
+  padding: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003323}}
+.txt-sh {
+  text-shadow: 0px 1px 1px black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003327}}
+.txt-sh-h {
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003331}}
+.va-middle {
+  vertical-align: middle !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003336}}
+.dist-btn-l {
+  margin-left: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003340}}
+.dist-btn-r {
+  margin-right: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003346}}
+.visible-blg {
+  visibility: hidden;
+}
+@media (min-width: 1610px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003346}}
+  .visible-blg {
+    visibility: visible;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003353}}
+.hidden-blg {
+  visibility: visible;
+}
+@media (min-width: 1610px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003353}}
+  .hidden-blg {
+    visibility: hidden;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003362}}
+.f-merryw {
+  font-family: 'Merriweather', serif !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003366}}
+.f-opens {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003373}}
+.c-dark {
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003376}}
+.c-corp {
+  color: #7AA328;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003380}}
+.c-contrast {
+  color: #FFF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003384}}
+.c-g80 {
+  color: #333;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003388}}
+.c-g60 {
+  color: #666;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003392}}
+.c-g40 {
+  color: #999;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003396}}
+.c-g30 {
+  color: #CCC;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003400}}
+.c-g20 {
+  color: #EFEFEF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003404}}
+.c-warning {
+  color: #7A2828;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003408}}
+.c-success {
+  color: #7AA328;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003412}}
+.c-blue {
+  color: #28517A;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003416}}
+.c-red {
+  color: #7A2828;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003420}}
+.c-green {
+  color: #7AA328;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003427}}
+.bg-dark {
+  background-color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003430}}
+.bg-corp {
+  background-color: #7AA328;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003434}}
+.bg-contrast {
+  background-color: #FFF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003438}}
+.bg-g80 {
+  background-color: #333;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003442}}
+.bg-g60 {
+  background-color: #666;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003446}}
+.bg-g40 {
+  background-color: #999;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003450}}
+.bg-g30 {
+  background-color: #CCC;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003454}}
+.bg-g20 {
+  background-color: #EFEFEF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003458}}
+.bg-g20_50 {
+  background-color: rgba(239, 239, 239, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003464}}
+.fleft {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003468}}
+.fright {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003472}}
+.r-pos {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003476}}
+.a-pos {
+  position: absolute;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003483}}
+.txt-xxl {
+  font-size: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003487}}
+.txt-xl {
+  font-size: 1.375em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003491}}
+.txt-news {
+  font-size: 1.250em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003495}}
+.txt-l {
+  font-size: 1.125em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003499}}
+.txt-m {
+  font-size: 1.1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003503}}
+.txt-s {
+  font-size: 0.750em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003507}}
+.txt-xs {
+  font-size: 0.625em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003511}}
+.txt-xxs {
+  font-size: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003515}}
+.txt-al  {
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003519}}
+.txt-ar {
+  text-align: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003523}}
+.txt-n {
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003528}}
+.fw-lh {
+  font-weight: lighter;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003532}}
+.fw-mlh {
+  font-weight: 300;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003539}}
+.tit {
+  font-size: 2.286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003547}}
+.w100 {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003551}}
+.w50 {
+  width: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003555}}
+.w48 {
+  width: 48%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003559}}
+.w40 {
+  width: 40%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003563}}
+.w20 {
+  width: 20%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003569}}
+.a-logo, a-logo:active, .a-logo:visited, .a-logo:focus {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003573}}
+.a-logo:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003578}}
+.a-external {
+  background-image: url("../img/ico-a-external.png");
+  background-repeat: no-repeat;
+  background-position: right 0px;
+  vertical-align: baseline;
+  padding-right: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003587}}
+.avisibility:focus {
+  background-color: #DFD91F;
+  outline: 3px solid #DFD91F;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003594}}
+.highlighted a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003600}}
+.img-credits {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  margin: 0;
+  padding: 0.5em 1em;
+  width: 100%;
+  z-index: 3000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003610}}
+.img-credits.background {
+  background-color: rgba(50, 50, 50, 0.5);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_base\.scss}line{font-family:\00003614}}
+.img-credits a {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\000031}}
+.navbar-brand {
+  padding: 9px 15px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\000036}}
+.top-nav, bottom-nav {
+  padding: 20px 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000310}}
+.top-logo-h {
+  width: 239px;
+  height: 63px;
+  background-image: url("../img/logo-wwwfoundation-top.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000318}}
+.top-logo-h-mobile {
+  width: 160px;
+  height: 44px;
+  position: relative;
+  top: 10px;
+  background-image: url("../img/wwwf-logo-mobile.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000326}}
+.bottom-logo {
+  display: block;
+  float: none;
+  text-align: center;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000326}}
+  .bottom-logo {
+    display: inline-block;
+    float: left;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000337}}
+.adj-mb-logo-bottom {
+  margin: 0 auto;
+  display: inline-block;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000337}}
+  .adj-mb-logo-bottom {
+    margin: inherit;
+    display: block;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000346}}
+.bottom-logo-h {
+  width: 239px;
+  height: 63px;
+  background-image: url("../img/logo-wwwfoundation-bottom.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000358}}
+.bg-tools {
+  background-color: rgba(239, 239, 239, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000362}}
+.spread-block {
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-indent: -9999px;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  top: 3px;
+  margin-left: 6px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000374}}
+.spread-rss {
+  background-image: url("../img/s-rss.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000378}}
+.spread-facebook {
+  background-image: url("../img/s-facebook.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000382}}
+.spread-twitter {
+  background-image: url("../img/s-twitter.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000388}}
+.adj-nav-top {
+  margin-top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000392}}
+.nav-res {
+  display: block;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000392}}
+  .nav-res {
+    display: inline-block;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\0000399}}
+.nav-block {
+  list-style-type: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 0px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003108}}
+.nav-item {
+  display: block;
+  padding: 0.75em 1em;
+  border-bottom: 1px solid #EFEFEF;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003108}}
+  .nav-item {
+    float: left;
+    border-bottom: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003119}}
+.nav-item .nav-item-a {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003123}}
+.nav-item .nav-i-a-active {
+  color: #000;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003129}}
+li.nav-item:last-child {
+  border-bottom: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003134}}
+.adj-mobile-tools {
+  display: block;
+  float: none;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003134}}
+  .adj-mobile-tools {
+    display: inline-block;
+    float: right;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003143}}
+.t-search-web {
+  width: 100%;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003143}}
+  .t-search-web {
+    width: auto;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003151}}
+.area-donate {
+  float: none;
+  margin-bottom: 10px;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003151}}
+  .area-donate {
+    float: right;
+    margin-bottom: 0px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003162}}
+.n-breadscrumb {
+  padding-right: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003168}}
+.item-bs {
+  display: block;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003173}}
+.item-bs:after {
+  content: "/";
+  margin-left: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003178}}
+.item-bs {
+  margin-left: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003182}}
+.item-bs:first-child {
+  margin-left: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003186}}
+.item-bs:last-child:after {
+  content: "";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003191}}
+.item-a-bs-active {
+  font-weight: 700;
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003199}}
+.snav-left, .social-items {
+  padding-right: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003206}}
+.pos-snav {
+  padding-top: 50px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003210}}
+.item-snav {
+  padding: 0.3em 0em;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003215}}
+.item-snav-a-active {
+  font-weight: bold;
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003220}}
+.item-s {
+  padding: 0.3em 0em;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003225}}
+.icon-s-twitter {
+  color: #2DAAE2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003229}}
+.icon-s-facebook {
+  color: #3C5A98;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003233}}
+.icon-s-gplus {
+  color: #DC4C39;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003243}}
+.footer-tools {
+  background-color: rgba(239, 239, 239, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003247}}
+.footer-copy {
+  padding: 13px 0px 0px 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003255}}
+.wf-btn, .wf-btn-100 {
+  display: block;
+  padding: 0.6em 2em;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003261}}
+.wf-btn:focus, .wf-btn-100:focus, .wf-btn:hover, .wf-btn-100:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003268}}
+.wf-btn-100 {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003274}}
+.adj-btn-ac-top {
+  margin-top: 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003278}}
+.wf-btn-action {
+  background-color: #D5420E;
+  color: #FFF;
+  box-shadow: 0px 2px 1px 0px #8A2F16;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003283}}
+.wf-btn-action:hover {
+  background-color: #b63e1d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003287}}
+.wf-btn-action:active {
+  box-shadow: inset 0px 2px 3px 0px #5e200f !important;
+  outline: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003293}}
+.wf-btn-success {
+  background-color: #519032;
+  color: #FFF;
+  box-shadow: 0px 2px 1px 0px #3B6A05;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003298}}
+.wf-btn-success:hover {
+  background-color: #569b07;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003302}}
+.wf-btn-success:active {
+  box-shadow: inset 0px 2px 3px 0px #203903 !important;
+  outline: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003310}}
+.wf-btn-featured {
+  background-color: #FF00DA;
+  color: #FFF;
+  box-shadow: 0px 2px 1px 0px #6D026B;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003315}}
+.wf-btn-featured:hover {
+  background-color: #9f039c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003319}}
+.wf-btn-featured:active {
+  box-shadow: inset 0px 2px 3px 0px #3b013a !important;
+  outline: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003328}}
+.wf-input {
+  outline: none !important;
+  box-sizing: border-box;
+  font-size: 1em;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-overflow: "";
+  content: "";
+  border: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003351}}
+.wf-input-search {
+  padding: 0.5em 2.1em 0.5em 0.6em;
+  background-image: url("../img/ico-search-box.png");
+  background-position: right center;
+  width: 100%;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003351}}
+  .wf-input-search {
+    width: 300px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003363}}
+.wf-input-signup {
+  padding: 0.2em;
+  background-color: transparent !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003369}}
+.wf-input-signup::-webkit-input-placeholder {
+  color: #FFF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003370}}
+.wf-input-signup::-moz-placeholder {
+  color: #FFF;
+}
+
+/* firefox 19+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003371}}
+.wf-input-signup::-ms-input-placeholder {
+  color: #FFF;
+}
+
+/* ie */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003372}}
+.wf-input-signup::-moz-placeholder {
+  color: #FFF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003377}}
+.acontrast {
+  color: #FFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003379}}
+.acontrast:hover, .acontrast:active, .acontrast:visited, .acontrast:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003383}}
+.acontrast:hover {
+  color: #cccccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003397}}
+.navbar {
+  min-height: 65px;
+  margin-bottom: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003402}}
+.navbar-default {
+  background-color: transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003407}}
+.navbar-toggle {
+  border: none;
+  margin-top: 11px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003412}}
+.navbar-lbl {
+  font-size: 0.5em;
+  position: relative;
+  top: 2px;
+  left: -1px;
+  display: block;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003421}}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #000;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003427}}
+.navbar-default .navbar-nav > li > a {
+  color: #7AA328;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003437}}
+body {
+  margin: 0;
+  position: inherit !important;
+  top: 0 !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003443}}
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003448}}
+.goog-te-gadget-simple {
+  background-color: transparent !important;
+  border-style: none !important;
+  border-width: 0px !important;
+  margin-right: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003455}}
+a.goog-te-menu-value span {
+  border-left: none !important;
+}
+
+/* SUBNAV MOBILE Default custom select styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003472}}
+div.cs-select {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  text-align: left;
+  background: #fff;
+  z-index: 100;
+  width: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003489}}
+div.cs-select:focus {
+  outline: none;
+  /* For better accessibility add a style for this in your skin */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003493}}
+.cs-select select {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003497}}
+.cs-select span {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Placeholder and selected option */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003508}}
+.cs-select > span {
+  padding-right: 3em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003512}}
+.cs-select > span::after,
+.cs-select .cs-selected span::after {
+  speak: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003523}}
+.cs-select > span::after {
+  content: '\25BE';
+  right: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003528}}
+.cs-select .cs-selected span::after {
+  content: '\2713';
+  margin-left: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003533}}
+.cs-select.cs-active > span::after {
+  -webkit-transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%) rotate(180deg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003538}}
+div.cs-active {
+  z-index: 200;
+}
+
+/* Options */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003543}}
+.cs-select .cs-options {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003551}}
+.cs-select.cs-active .cs-options {
+  visibility: visible;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003555}}
+.cs-select ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003562}}
+.cs-select ul span {
+  padding: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003566}}
+.cs-select ul li.cs-focus span {
+  background-color: #ddd;
+}
+
+/* Optgroup and optgroup label */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003571}}
+.cs-select li.cs-optgroup ul {
+  padding-left: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003575}}
+.cs-select li.cs-optgroup > span {
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003579}}
+div.cs-skin-elastic {
+  background: transparent;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #5b8583;
+}
+
+@media screen and (max-width: 30em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003587}}
+  div.cs-skin-elastic {
+    font-size: 1em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003590}}
+.cs-skin-elastic > span {
+  background-color: #EFEFEF;
+  z-index: 100;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003595}}
+.cs-skin-elastic > span::after {
+  font-family: 'font-wwwf';
+  content: '\e610';
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003602}}
+.cs-skin-elastic .cs-options {
+  overflow: visible;
+  background: transparent;
+  opacity: 1;
+  visibility: visible;
+  padding-bottom: 1.25em;
+  pointer-events: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003611}}
+.cs-skin-elastic.cs-active .cs-options {
+  pointer-events: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003615}}
+.cs-skin-elastic .cs-options > ul::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transform: scale3d(1, 0, 1);
+  transform: scale3d(1, 0, 1);
+  background: #fff;
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003631}}
+.cs-skin-elastic.cs-active .cs-options > ul::before {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  transition: none;
+  -webkit-animation: expand 0.6s ease-out;
+  animation: expand 0.6s ease-out;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003640}}
+.cs-skin-elastic .cs-options ul li {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -25px, 0);
+  transform: translate3d(0, -25px, 0);
+  transition: opacity 0.15s, -webkit-transform 0.15s;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003648}}
+.cs-skin-elastic.cs-active .cs-options ul li {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+  transition: none;
+  -webkit-animation: bounce 0.6s ease-out;
+  animation: bounce 0.6s ease-out;
+}
+
+/* with more items, more delays declarations are needed */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003662}}
+.cs-skin-elastic .cs-options span {
+  background-repeat: no-repeat;
+  background-position: 1.5em 50%;
+  background-size: 2em auto;
+  padding: 0.8em 1em 0.8em 4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003669}}
+.cs-skin-elastic .cs-options span:hover,
+.cs-skin-elastic .cs-options li.cs-focus span,
+.cs-skin-elastic .cs-options .cs-selected span {
+  color: #1e4c4a;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003675}}
+.cs-skin-elastic .cs-options .cs-selected span::after {
+  content: '';
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003679}}
+.cs-skin-elastic .cs-options li.flag-france span {
+  background-image: url(../img/france.svg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003683}}
+.cs-skin-elastic .cs-options li.flag-brazil span {
+  background-image: url(../img/brazil.svg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003687}}
+.cs-skin-elastic .cs-options li.flag-safrica span {
+  background-image: url(../img/south-africa.svg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003691}}
+.cs-skin-elastic .cs-options li.flag-argentina span {
+  background-image: url(../img/argentina.svg);
+}
+
+@-webkit-keyframes expand {
+  0% {
+    -webkit-transform: scale3d(1, 0, 1);
+  }
+  25% {
+    -webkit-transform: scale3d(1, 1.2, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1, 0.85, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1, 1.05, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes expand {
+  0% {
+    -webkit-transform: scale3d(1, 0, 1);
+    transform: scale3d(1, 0, 1);
+  }
+  25% {
+    -webkit-transform: scale3d(1, 1.2, 1);
+    transform: scale3d(1, 1.2, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1, 0.85, 1);
+    transform: scale3d(1, 0.85, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1, 1.05, 1);
+    transform: scale3d(1, 1.05, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translate3d(0, -25px, 0);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translate3d(0, 10px, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(0, -6px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 2px, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes bounce {
+  0% {
+    -webkit-transform: translate3d(0, -25px, 0);
+    transform: translate3d(0, -25px, 0);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+  50% {
+    -webkit-transform: translate3d(0, -6px, 0);
+    transform: translate3d(0, -6px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 2px, 0);
+    transform: translate3d(0, 2px, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+/* Wordpress navigation */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003730}}
+ul.menu {
+  list-style-type: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 0px !important;
+  overflow: hidden;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003744}}
+ul.menu .menu-item {
+  display: block;
+  padding: 0.75em 1em;
+  border-bottom: 1px solid #EFEFEF;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003744}}
+  ul.menu .menu-item {
+    float: left;
+    border-bottom: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003755}}
+ul.menu .menu-item a {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003759}}
+ul.menu .menu-item.current-menu-item a, ul.menu .menu-item.current-page-ancestor a {
+  color: #000;
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003764}}
+ul.menu .menu-item:last-child {
+  border-bottom: none;
+}
+
+/* Wordpress Sidebar Navigation */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003776}}
+.menu-about-us-menu-container ul,
+.menu-contact-us-menu-container ul,
+.menu-the-web-menu-container ul,
+.menu-support-us-menu-container ul {
+  padding-top: 50px;
+  padding-right: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003782}}
+.menu-about-us-menu-container ul li,
+.menu-contact-us-menu-container ul li,
+.menu-the-web-menu-container ul li,
+.menu-support-us-menu-container ul li {
+  padding: 0.3em 0em !important;
+  border-bottom: 1px solid #EFEFEF !important;
+  float: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-navigation\.scss}line{font-family:\00003790}}
+.more-link {
+  white-space: nowrap;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\000033}}
+.wf-btn, .wf-btn-100 {
+  display: block;
+  padding: 0.6em 1.6em;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\000039}}
+.wf-btn:focus, .wf-btn-100:focus, .wf-btn:hover, .wf-btn-100:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000316}}
+.wf-btn-100 {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000322}}
+.adj-btn-ac-top {
+  margin-top: 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000326}}
+.wf-btn-action {
+  background-color: #D5420E;
+  color: #FFF;
+  box-shadow: 0px 2px 1px 0px #8A2F16;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000331}}
+.wf-btn-action:hover {
+  background-color: #b63e1d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000335}}
+.wf-btn-action:active {
+  box-shadow: inset 0px 2px 3px 0px #5e200f !important;
+  outline: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000341}}
+.wf-btn-success {
+  background-color: #519032;
+  color: #FFF;
+  box-shadow: 0px 2px 1px 0px #3B6A05;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000346}}
+.wf-btn-success:hover {
+  background-color: #569b07;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000350}}
+.wf-btn-success:active {
+  box-shadow: inset 0px 2px 3px 0px #203903 !important;
+  outline: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000357}}
+.wf-btn-success {
+  background-color: #519032;
+  color: #FFF;
+  box-shadow: 0px 2px 1px 0px #3B6A05;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000362}}
+.wf-btn-success:hover {
+  background-color: #569b07;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000366}}
+.wf-btn-success:active {
+  box-shadow: inset 0px 2px 3px 0px #203903 !important;
+  outline: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000373}}
+.wf-btn-neutral {
+  background-color: #95A5A6;
+  color: #FFF;
+  box-shadow: 0px 2px 1px 0px #BDC3C7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000378}}
+.wf-btn-neutral:hover {
+  background-color: #d9dcde;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000382}}
+.wf-btn-neutral:active {
+  box-shadow: inset 0px 2px 3px 0px #a1aab0 !important;
+  outline: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\0000391}}
+.wf-input {
+  outline: none !important;
+  box-sizing: border-box;
+  font-size: 1em;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-overflow: "";
+  content: "";
+  border: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\00003114}}
+.wf-input-search {
+  padding: 0.5em 2.1em 0.5em 0.6em;
+  background-image: url("../img/ico-search-box.png");
+  background-position: right center;
+  width: 100%;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\00003114}}
+  .wf-input-search {
+    width: 300px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\00003126}}
+.wf-input-signup {
+  padding: 0.2em;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\00003133}}
+.wf-input-signup::-webkit-input-placeholder {
+  color: #FFF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\00003134}}
+.wf-input-signup::-moz-placeholder {
+  color: #FFF;
+}
+
+/* firefox 19+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\00003135}}
+.wf-input-signup::-ms-input-placeholder {
+  color: #FFF;
+}
+
+/* ie */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\00003136}}
+.wf-input-signup::-moz-placeholder {
+  color: #FFF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\00003141}}
+.acontrast {
+  color: #FFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\00003143}}
+.acontrast:hover, .acontrast:active, .acontrast:visited, .acontrast:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-form\.scss}line{font-family:\00003147}}
+.acontrast:hover {
+  color: #cccccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-override\.scss}line{font-family:\000036}}
+.navbar {
+  min-height: 65px;
+  margin-bottom: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-override\.scss}line{font-family:\0000311}}
+.navbar-default {
+  background-color: transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-override\.scss}line{font-family:\0000316}}
+.navbar-toggle {
+  border: none;
+  margin-top: 11px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-override\.scss}line{font-family:\0000321}}
+.navbar-lbl {
+  font-size: 0.5em;
+  position: relative;
+  top: 2px;
+  left: -1px;
+  display: block;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-override\.scss}line{font-family:\0000330}}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #000;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-override\.scss}line{font-family:\0000336}}
+.navbar-default .navbar-nav > li > a {
+  color: #7AA328;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-override\.scss}line{font-family:\0000344}}
+.goog-te-gadget-simple {
+  background-color: transparent !important;
+  border-style: none !important;
+  border-width: 0px !important;
+  margin-right: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-override\.scss}line{font-family:\0000351}}
+a.goog-te-menu-value span {
+  border-left: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\000033}}
+.top-hero {
+  width: 100%;
+  height: 624px;
+  background-image: url("../img/background-test-header-wwwf.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\000033}}
+  .top-hero {
+    background-image: url("../img/background-test-header-wwwf-big.jpg");
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\0000322}}
+.h-protect {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, #000000 85%);
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9Ijg1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, #000000 85%);
+  z-index: 2;
+  opacity: 0.6;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\0000335}}
+.h-block {
+  z-index: 10;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\0000339}}
+.h-claim {
+  position: absolute;
+  width: 30%;
+  left: 40px;
+  bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\0000345}}
+.h-claim .h-claim-title {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+@media (min-width: 1610px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\0000345}}
+  .h-claim .h-claim-title {
+    font-size: 3.625em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\0000356}}
+.h-acc-direct {
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+  width: 60%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\0000363}}
+.h-acc-direct .h-acc-tit {
+  padding: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\0000369}}
+.h-block-ac {
+  width: calc(33.333% - 1.250em);
+  float: left;
+  margin-right: 1.250em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 200px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\0000378}}
+.h-b-eaccess {
+  background-color: #28517A;
+  background-image: url("../img/back-eaccess.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\0000388}}
+.h-b-uvoice {
+  background-color: #7AA328;
+  background-image: url("../img/back-uvoice.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\0000394}}
+.h-b-eparticipation {
+  background-color: #7A2828;
+  background-image: url("../img/back-eparticipation.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003105}}
+.main-hero-mobile-top {
+  margin-bottom: 0px;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003105}}
+  .main-hero-mobile-top {
+    margin-bottom: 20px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003113}}
+.hero-mobile-top {
+  position: relative;
+  /*background-image: url("../img/background-test-header-wwwf-big.jpg");*/
+  background-size: cover;
+  background-position: center center;
+  height: 240px;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003113}}
+  .hero-mobile-top {
+    height: 368px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003128}}
+.tit-hero-mobile {
+  width: 220px;
+  position: absolute;
+  right: 10px;
+  bottom: 40px;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003128}}
+  .tit-hero-mobile {
+    width: 300px;
+    right: 40px;
+    bottom: 40px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003140}}
+.tit-hero-mobile .tit-hero-mb {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003140}}
+  .tit-hero-mobile .tit-hero-mb {
+    font-size: 3.5em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003149}}
+.h-m-content {
+  padding: 20px 10px 20px 10px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003149}}
+  .h-m-content {
+    margin-bottom: 0px;
+    padding: 50px 10px 20px 10px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003160}}
+.h-m-content-ea {
+  background-color: #28517A;
+  background-image: url("../img/back-eaccess.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003164}}
+.h-m-content-uv {
+  background-color: #7AA328;
+  background-image: url("../img/back-uvoice.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003168}}
+.h-m-content-ep {
+  background-color: #7A2828;
+  background-image: url("../img/back-eparticipation.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003177}}
+.about-wwwf-block {
+  background-image: url("../img/bg-wwwf-block-sm.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003177}}
+  .about-wwwf-block {
+    background-image: url("../img/bg-wwwf-block-md.jpg");
+  }
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003177}}
+  .about-wwwf-block {
+    background-image: url("../img/bg-wwwf-block-md.jpg");
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003177}}
+  .about-wwwf-block {
+    background-image: url("../img/bg-wwwf-block.jpg");
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003196}}
+.about-wwwf-block .about-tit-simulate {
+  display: block;
+  width: 387px;
+  height: 248px;
+  background-image: url("../img/title-about-section.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-indent: -9999px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003206}}
+.about-wwwf-block .adj-tit-simulate {
+  margin-top: 40px;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003206}}
+  .about-wwwf-block .adj-tit-simulate {
+    margin-top: 85px;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003206}}
+  .about-wwwf-block .adj-tit-simulate {
+    margin-top: 50px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003219}}
+.about-wwwf-block .adj-text-about {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003219}}
+  .about-wwwf-block .adj-text-about {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003233}}
+.actions-about-wwwf {
+  width: 100%;
+  height: 250px;
+  background-color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003240}}
+.item {
+  height: 224px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0px;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003240}}
+  .item {
+    margin: 0px 5px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003252}}
+.item-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003262}}
+.item-img-wwf1 {
+  background-image: url("../img/bg-intro-secc-ea.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003266}}
+.item-img-wwf2 {
+  background-image: url("../img/bg-intro-secc-uv.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003270}}
+.item-img-wwf3 {
+  background-image: url("../img/bg-intro-secc-ep.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003275}}
+.item-singup-box {
+  background-color: #7AA328;
+  background-image: url("../img/bg-item-box-singup.png");
+  background-position: right top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003281}}
+.item-donate-box {
+  background-color: #7A2828;
+  background-image: url("../img/bg-item-box-donate.png");
+  background-position: right 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003288}}
+.content-action {
+  width: 100%;
+  padding: 20px;
+  /*
+  	@include modular-mq(lg) {
+  		width: 90%;
+  	}*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003291}}
+.content-action .pos-btn-action {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003302}}
+.adj-signup-mobile {
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003302}}
+  .adj-signup-mobile {
+    margin-bottom: 0px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003316}}
+.featured-block {
+  width: 100%;
+  height: 428px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003330}}
+.featured-web-we-want {
+  background-image: url("../img-content/bg-featured.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003334}}
+.f-intro-typeA {
+  background-color: #D7006D;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003338}}
+.featured-intro {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003338}}
+  .featured-intro {
+    left: 30px;
+    bottom: 30px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003349}}
+.f-intro-content {
+  padding: 30px;
+  width: 330px;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003349}}
+  .f-intro-content {
+    width: 360px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003357}}
+.f-intro-content .f-tit-big {
+  font-size: 25px;
+  font-weight: bold;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003357}}
+  .f-intro-content .f-tit-big {
+    font-size: 35px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003374}}
+.bg-news-home-block {
+  background-image: url("../img/bg-news-wfoundation-xs.png");
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-color: #7AA328;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003374}}
+  .bg-news-home-block {
+    background-image: url("../img/bg-news-wfoundation-md.png");
+    background-repeat: repeat-y;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003374}}
+  .bg-news-home-block {
+    background-image: url("../img/bg-news-wfoundation.png");
+    background-repeat: no-repeat;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003392}}
+.news-img-fig {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003396}}
+.news-arrow {
+  width: 34px;
+  height: 22px;
+  position: absolute;
+  left: 15px;
+  bottom: -10px;
+  background-image: url("../img/news-arrow.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003412}}
+.news-content {
+  padding: 10px;
+  background-color: #519032;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003421}}
+.research-featured {
+  padding: 20px 20px 20px 20px;
+  background-image: url("../img/bg-top-research.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: rgba(173, 214, 91, 0.6);
+  box-shadow: -1px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003436}}
+.tweet-content {
+  background-color: #50A2F4;
+  padding: 20px;
+  min-height: 222px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003441}}
+.tweet-content a {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003446}}
+.tweet-date {
+  margin-bottom: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003450}}
+.tweet-mention {
+  height: 51px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-image: url("../img/ico-tweet-mentions.png");
+  background-repeat: no-repeat;
+  background-position: 20px center;
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003450}}
+  .tweet-mention {
+    margin-bottom: 0px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003467}}
+.tweet-a-mention {
+  position: relative;
+  top: 25px;
+  left: 60px;
+}
+
+/* MAIL CHIMP */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003476}}
+.newsletter-button {
+  bottom: -100px !important;
+  right: 0 !important;
+  border: none !important;
+  width: auto !important;
+  padding: 0.6em 1.6em !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003484}}
+.newsletter-input {
+  padding: 0.5em 0.6em;
+  background-color: rgba(200, 200, 200, 0.4) !important;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003491}}
+#mc_embed_signup form {
+  padding: 0 !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003495}}
+#mc_embed_signup .mc-field-group {
+  width: 100% !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003499}}
+.response-chimp {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  text-align: center;
+  background-color: #FFFFCC;
+  padding: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-index\.scss}line{font-family:\00003509}}
+div.mce_inline_error {
+  position: absolute;
+  width: 100%;
+  bottom: -34px;
+  font-size: 0.9em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\000031}}
+.get-involved-hero {
+  background-image: linear-gradient(-227deg, #429321 14%, #93c736 79%);
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9Ii0wLjAxNjgzIiB5MT0iMC4wMTgwNDgiIHgyPSIxLjAxNjgzIiB5Mj0iMC45ODE5NTIiPjxzdG9wIG9mZnNldD0iMTQlIiBzdG9wLWNvbG9yPSIjNDI5MzIxIi8+PHN0b3Agb2Zmc2V0PSI3OSUiIHN0b3AtY29sb3I9IiM5M2M3MzYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: linear-gradient(-227deg, #429321 14%, #93c736 79%);
+}
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\000036}}
+  .bg-get-involved-hero {
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000314}}
+.get-i-content {
+  padding: 30px;
+  width: 100%;
+  min-height: 400px;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000314}}
+  .get-i-content {
+    width: 60%;
+    padding-top: 40px;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000314}}
+  .get-i-content {
+    width: 50%;
+    padding-top: 40px;
+  }
+}
+@media (min-width: 1610px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000314}}
+  .get-i-content {
+    width: 50%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000335}}
+.featured {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000335}}
+  .featured {
+    margin-bottom: 0px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000346}}
+.feat-st {
+  background-color: #EFEFEF;
+  background-image: url("../img/bg-item-box-singup.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000351}}
+.feat-imp {
+  background-color: #E05213;
+  background-image: url("../img/bg-item-box-donate.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000356}}
+.adj-content-jcon {
+  max-width: 330px;
+  height: 300px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000361}}
+.j-conv {
+  position: relative;
+  display: block;
+  width: 136px;
+  height: 117px;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000370}}
+.jc-facebook {
+  background-image: url("../img/bg-j-facebook.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000374}}
+.jc-twitter {
+  position: relative;
+  top: -40px;
+  background-image: url("../img/bg-j-twitter.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000380}}
+.jc-linkedin {
+  position: relative;
+  top: -80px;
+  background-image: url("../img/bg-j-linkedin.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-ginvolved\.scss}line{font-family:\0000387}}
+.j-tit {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\000031}}
+.location-address {
+  position: relative;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #efefef;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\000031}}
+  .location-address {
+    height: 268px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000318}}
+.lo-add-protector {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, #000000 95%);
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9Ijk1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, #000000 95%);
+  z-index: 10;
+  opacity: 0.6;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000330}}
+.lo-add-content {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: 90%;
+  z-index: 20;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000330}}
+  .lo-add-content {
+    width: 80%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000342}}
+.loc-us {
+  background-image: url("../img/bg-loc-us.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000346}}
+.loc-sa {
+  background-image: url("../img/bg-loc-sa.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000350}}
+.loc-id {
+  background-image: url("../img/bg-loc-id.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000354}}
+.loc-uk {
+  background-image: url("../img/bg-loc-uk.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000358}}
+.loc-sw {
+  background-image: url("../img/bg-loc-sw.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000362}}
+.ico-lbl-loc {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 5px 5px 5px 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000369}}
+.ico-lbl-contact {
+  background-image: url("../img/ico-loc-telephone.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000373}}
+.ico-lbl-maps {
+  background-image: url("../img/ico-loc-map.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000378}}
+.contact-form textarea {
+  height: 150px;
+  border-radius: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000383}}
+.contact-form .form-control {
+  border-radius: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000387}}
+.contact-form .wf-btn, .contact-form .wf-btn-100 {
+  margin: 0 auto;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\0000394}}
+.contact-form .required {
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #D5420E;
+  margin-bottom: 0.12em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\00003103}}
+.contact-form .required-fields {
+  color: #95A5A6;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\00003108}}
+.alert {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-contact\.scss}line{font-family:\00003113}}
+.contact-container li {
+  width: 50%;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\000031}}
+.line-sep {
+  height: 32px;
+  width: 100%;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\000036}}
+.line-sep .line-arrow {
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 2px;
+  left: 15px;
+  width: 34px;
+  height: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000316}}
+.line-sep .line-arrow-1 {
+  background-image: url("../img/line-arrow-blue.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000320}}
+.line-sep .line-arrow-2 {
+  background-image: url("../img/line-arrow-green.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000324}}
+.line-sep .line-arrow-3 {
+  background-image: url("../img/line-arrow-red.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000329}}
+.line-sep-1 {
+  border-top: 10px solid #28517A;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000333}}
+.line-sep-2 {
+  border-top: 10px solid #7AA328;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000337}}
+.line-sep-3 {
+  border-top: 10px solid #7A2828;
+}
+
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000341}}
+  .adj-intro-resp {
+    padding-bottom: 0px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000349}}
+.col-change {
+  background-color: #FFF;
+  -webkit-transition: width .25s;
+  -moz-transition: width 0.25s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000355}}
+.issues-content-preview {
+  border-bottom: 1px solid #EFEFEF;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000355}}
+  .issues-content-preview {
+    border-bottom: 0px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000362}}
+.issues-content-expand {
+  position: relative;
+  z-index: 20;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000367}}
+.close-issue {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  background-image: url("../img/ico-close-issue.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 20;
+  opacity: 0.7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000380}}
+.close-issue:hover {
+  opacity: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000385}}
+.adj-issues-mobile {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000385}}
+  .adj-issues-mobile {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\0000394}}
+.overlay-issues {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003108}}
+.hero-project {
+  height: 530px;
+  position: relative;
+  background-color: #efefef;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003120}}
+.h-p-intro {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003120}}
+  .h-p-intro {
+    width: 408px;
+    left: 20px;
+    bottom: 20px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003133}}
+.h-p-i-header {
+  padding: 10px 20px;
+  background-color: #D7006D;
+  position: relative;
+  margin-bottom: -5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003140}}
+.h-p-i-content {
+  padding: 20px;
+  background-color: #FFF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003145}}
+.h-p-i-arrow {
+  background-image: url("../img/arrow-featured-typeA.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  display: block;
+  width: 34px;
+  height: 22px;
+  position: relative;
+  left: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003156}}
+.adj-pos-header-project {
+  margin-bottom: -10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003160}}
+.tpc-photo {
+  max-width: 100px;
+  max-height: 140px;
+  height: auto;
+  margin-right: 15px;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003160}}
+  .tpc-photo {
+    max-width: 140px;
+    max-height: 180px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003173}}
+.b-t-1 {
+  border-top: 5px solid #28517A;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003177}}
+.b-t-2 {
+  border-top: 5px solid #7AA328;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003181}}
+.b-t-3 {
+  border-top: 5px solid #7A2828;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003189}}
+.team-carouse-nav {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+  z-index: 100;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003198}}
+.adj-nav-ind-team {
+  position: relative;
+  top: -5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-issues\.scss}line{font-family:\00003203}}
+.min-height {
+  min-height: 160px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\000035}}
+.team-grid {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\000039}}
+.b-team {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  margin: 0px 0px 30px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\000039}}
+  .b-team {
+    width: 31.3%;
+    margin: 0px 0px 30px 3%;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\000039}}
+  .b-team {
+    width: 22.75%;
+    margin: 0px 0px 30px 3%;
+  }
+}
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\0000336}}
+  .b-board {
+    width: 31.3%;
+    margin: 0px 0px 30px 3%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\0000343}}
+.b-team:first-child {
+  margin-left: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\0000347}}
+.b-team-content {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\0000362}}
+.b-team-content:last-child {
+  margin-bottom: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\0000370}}
+.b-team-large {
+  background-color: #EFEFEF;
+  height: 426px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\0000375}}
+.b-team-small {
+  background-color: #EFEFEF;
+  height: 256px;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\0000375}}
+  .b-team-small {
+    height: 198px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\0000383}}
+.b-board-small {
+  background-color: #EFEFEF;
+  height: 356px;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\0000383}}
+  .b-board-small {
+    height: 298px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\0000392}}
+.b-team-qview {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIxMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 10%, #000000 100%);
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003107}}
+.b-team-overlay {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003123}}
+.adj_stit_team {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003134}}
+  .b-team-large:hover .b-team-qview, .b-team-small:hover .b-team-qview {
+    transform: translate(0px, 200px);
+    -webkit-transform: translate(0px, 200px);
+    -ms-transform: translate(0px, 200px);
+    -o-transform: translate(0px, 200px);
+    -moz-transform: translate(0px, 200px);
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003146}}
+.b-team-overlay:hover {
+  display: none;
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003146}}
+  .b-team-overlay:hover {
+    display: block;
+    opacity: 0.6;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003154}}
+.b-team-tglance {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+/* Remainder team */
+@media (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003171}}
+  .remainder-team .b-team:nth-child(3n - 2) {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003177}}
+  .remainder-team .b-team:nth-child(4n + 1) {
+    margin-left: 0;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003185}}
+.team-bio {
+  background-color: rgba(239, 239, 239, 0.5);
+  padding: 30px 0px 20px 0px;
+  position: relative;
+  min-height: 380px;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003185}}
+  .team-bio {
+    padding: 30px 30px 20px 30px;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003185}}
+  .team-bio {
+    padding: 30px 30px 20px 330px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003200}}
+.team-bio-picture {
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003215}}
+.adj-img-bio-mobile {
+  width: 100%;
+  height: auto;
+}
+
+/*
+.adj-social-info-team {
+	display: block;
+	float: none;
+	text-align: center;
+
+	@include modular-mq(sm) {
+		display: inherit;
+		float: inherit;
+		text-align: none;
+	}
+}
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-aboutus\.scss}line{font-family:\00003238}}
+.new-nav {
+  background-color: #7AA328;
+  background-image: url("../img/bg-new-nav-bottom.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\000034}}
+.main-intro-section {
+  background-image: url("../img/bg-header-content.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000313}}
+.mintro-section-c-green {
+  background-color: #7AA328;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000317}}
+.mintro-section-c-red {
+  background-color: #7A2828;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000321}}
+.mintro-section-c-blue {
+  background-color: #28517A;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000325}}
+.mintro-section-c-blueb {
+  background-color: #4DAABE;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000331}}
+.mintro-section-c-redb {
+  background-color: #E05213;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000335}}
+.mintro-section-c-roseb {
+  background-color: #FF69C1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000343}}
+.global-content {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+@media (min-width: 1610px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000343}}
+  .global-content {
+    max-width: 1610px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000353}}
+.pos-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000353}}
+  .pos-content {
+    padding-left: 240px;
+    padding-right: 140px;
+  }
+}
+@media (min-width: 1610px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000353}}
+  .pos-content {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000367}}
+.sunav-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+}
+@media (min-width: 1610px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000367}}
+  .sunav-left {
+    left: -5px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000377}}
+.sunav-left .c-subnav {
+  text-align: right;
+  margin-right: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000384}}
+.social-nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 140px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000390}}
+.social-nav .c-social {
+  text-align: left;
+  margin-left: 30px;
+}
+@media (min-width: 1610px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\0000384}}
+  .social-nav {
+    right: 90px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003102}}
+.container-max-height {
+  margin: 0 auto;
+  width: 100%;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003102}}
+  .container-max-height {
+    width: 750px;
+    min-height: 400px;
+  }
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003102}}
+  .container-max-height {
+    width: 100%;
+  }
+}
+@media (min-width: 1610px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003102}}
+  .container-max-height {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003125}}
+.max-content-social {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003125}}
+  .max-content-social {
+    max-width: 1430px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003144}}
+.aside-social-unq {
+  width: 110px;
+  position: absolute;
+  right: 0px;
+  top: 50px;
+  z-index: 100;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003153}}
+.adj-cont-fluid {
+  width: 100%;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003153}}
+  .adj-cont-fluid {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003153}}
+  .adj-cont-fluid {
+    width: 100%;
+    padding-right: 140px;
+    padding-left: 6%;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003153}}
+  .adj-cont-fluid {
+    padding-right: 140px;
+    padding-left: 10%;
+  }
+}
+@media (min-width: 1610px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003153}}
+  .adj-cont-fluid {
+    width: 1170px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003179}}
+.intro-secc-img-big {
+  position: relative;
+  width: 100%;
+  height: 168px;
+  background-size: cover;
+  background-position: center center;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003179}}
+  .intro-secc-img-big {
+    height: 360px;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003179}}
+  .intro-secc-img-big {
+    height: 400px;
+  }
+}
+@media (min-width: 1610px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003179}}
+  .intro-secc-img-big {
+    height: 480px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003203}}
+.intro-secc-img-med {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003203}}
+  .intro-secc-img-med {
+    height: 460px;
+  }
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003203}}
+  .intro-secc-img-med {
+    height: 420px;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003203}}
+  .intro-secc-img-med {
+    height: 520px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003227}}
+.intro-secc-img-small {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003227}}
+  .intro-secc-img-small {
+    height: 360px;
+  }
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003227}}
+  .intro-secc-img-small {
+    height: 180px;
+  }
+}
+@media (min-width: 1610px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003227}}
+  .intro-secc-img-small {
+    height: 220px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003251}}
+.intro-sec-img-content {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px;
+  z-index: 20;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003261}}
+.intro-secc-img-au {
+  background-image: url("../img/bg-intro-secc-about-us.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003266}}
+.intro-secc-img-ea {
+  background-image: url("../img/bg-intro-secc-ea.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003271}}
+.intro-secc-img-uv {
+  background-image: url("../img/bg-intro-secc-uv.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003276}}
+.intro-secc-img-ep {
+  background-image: url("../img/bg-intro-secc-ep.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003282}}
+.intro-secc-img-protector {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, #000000 95%);
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9Ijk1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, #000000 95%);
+  opacity: 0.6;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003295}}
+.bq-content {
+  display: block;
+  padding: 1.3em 1.5em;
+  background-color: rgba(239, 239, 239, 0.5);
+  font-size: 1.3em;
+  font-style: italic;
+  background-image: url("../img/bg-quotes-open.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003295}}
+  .bq-content {
+    padding: 3em 6em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003310}}
+.bq-cite {
+  color: #666;
+  font-size: 0.8em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003315}}
+.c-s-separator-intro {
+  width: 100%;
+  max-width: 70px;
+  border-bottom: 2px solid rgba(239, 239, 239, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003322}}
+.c-s-separator {
+  display: block;
+  width: 100%;
+  max-width: 70px;
+  height: 2px;
+  border-bottom: 2px solid #EFEFEF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003332}}
+.ad-st {
+  position: relative;
+  background-color: #999;
+  background-size: cover;
+  background-position: center top;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003332}}
+  .ad-st {
+    margin-bottom: 0px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003351}}
+.ad-st-content {
+  position: relative;
+  padding: 150px 20px 10px 20px;
+  z-index: 20;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003351}}
+  .ad-st-content {
+    padding: 180px 20px 10px 20px;
+  }
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003351}}
+  .ad-st-content {
+    padding: 120px 20px 10px 20px;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003351}}
+  .ad-st-content {
+    padding: 200px 20px 10px 20px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003366}}
+.ad-st-getinvolved {
+  background-image: url("../img/ad-getinvolved.jpg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003370}}
+.ad-st-protector {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, #000000 95%);
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9Ijk1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, #000000 95%);
+  opacity: 0.6;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003383}}
+.adj-content-mobile {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003383}}
+  .adj-content-mobile {
+    padding-left: 0;
+    padding-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003390}}
+  .adj-content-mobile p {
+    min-height: 55px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003398}}
+.adj-icon-svg {
+  position: relative;
+  top: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003406}}
+.ico-round-social {
+  padding: 10px 15px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003412}}
+.ico-rs-linkedin {
+  background-color: #0E76A8;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003416}}
+.ico-rs-twitter {
+  background-color: #2DAAE2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003420}}
+.ico-rs-gplus {
+  background-color: #DC4C39;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003424}}
+.ico-rs-facebook {
+  background-color: #3C5A98;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003430}}
+.list-simple, .list-projects, .li-icon, .list-news {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  list-style-type: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003438}}
+.li-ls {
+  padding: 5px 0px;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003443}}
+.item-prj {
+  display: block;
+  padding: 8px 0px;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003449}}
+.item-prj:last-child {
+  border-bottom: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003453}}
+.item-icon {
+  padding: 5px 0px 5px 45px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003459}}
+.item-icon-pdf {
+  background-image: url("../img/list-icon-pdf.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003463}}
+.item-icon-html {
+  background-image: url("../img/list-icon-html.png");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003467}}
+.item-news {
+  padding: 10px 0px 10px 25px;
+  background-image: url("../img/dot-news.png");
+  background-repeat: no-repeat;
+  background-position: left 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-post\.scss}line{font-family:\000031}}
+.post-container {
+  font-family: 'Merriweather', serif !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-post\.scss}line{font-family:\000034}}
+.post-container.large {
+  font-size: 1.15em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-post\.scss}line{font-family:\000038}}
+.post-container img, .post-container iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-post\.scss}line{font-family:\0000314}}
+.post-container ul {
+  list-style: none;
+  margin-bottom: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-post\.scss}line{font-family:\0000318}}
+.post-container ul li {
+  padding: 10px 0px 10px 25px;
+  background-image: url("../img/dot-news.png");
+  background-repeat: no-repeat;
+  background-position: left 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-post\.scss}line{font-family:\0000326}}
+.post-container blockquote {
+  padding: 3em 6em;
+  display: block;
+  background-color: rgba(239, 239, 239, 0.5);
+  font-size: 1.3em;
+  font-style: italic;
+  background-image: url("../img/bg-quotes-open.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-post\.scss}line{font-family:\0000339}}
+.post-container cite {
+  color: #666;
+  font-size: 0.8em;
+  display: block;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-post\.scss}line{font-family:\0000346}}
+.post-container p {
+  margin-bottom: 25px;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-post\.scss}line{font-family:\0000351}}
+.post-container .wp-caption-text {
+  text-align: center;
+  color: #888;
+  padding: 10px 0;
+  font-size: 0.8em;
+  font-family: 'Open Sans', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-post\.scss}line{font-family:\0000358}}
+.post-container .wp-caption-text a {
+  text-decoration: underline !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-tags\.scss}line{font-family:\000031}}
+.post-tags ul {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-tags\.scss}line{font-family:\000035}}
+.post-tags li, .post-tags a {
+  float: right;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  font-size: 11px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-tags\.scss}line{font-family:\0000313}}
+.post-tags a {
+  margin-left: 20px;
+  padding: 0 10px 0 12px;
+  background: #4DAABE;
+  color: #fff;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-tags\.scss}line{font-family:\0000320}}
+.post-tags a:before {
+  content: "";
+  float: left;
+  position: absolute;
+  top: 0;
+  left: -12px;
+  width: 0;
+  height: 0;
+  border-color: transparent #4DAABE transparent transparent;
+  border-style: solid;
+  border-width: 12px 12px 12px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-tags\.scss}line{font-family:\0000333}}
+.post-tags a:after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 0;
+  float: left;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-tags\.scss}line{font-family:\0000347}}
+.post-tags a:hover {
+  background: #555;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-tags\.scss}line{font-family:\0000351}}
+.post-tags a:hover:before {
+  border-color: transparent #555 transparent transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-tags\.scss}line{font-family:\0000356}}
+.post-tags a.enhancing-participation {
+  background: #E05213;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-tags\.scss}line{font-family:\0000359}}
+.post-tags a.enhancing-participation:before {
+  border-color: transparent #E05213 transparent transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-tags\.scss}line{font-family:\0000364}}
+.post-tags a.raising-voices {
+  background: #7AA328;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-tags\.scss}line{font-family:\0000367}}
+.post-tags a.raising-voices:before {
+  border-color: transparent #7AA328 transparent transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-tags\.scss}line{font-family:\0000372}}
+.post-tags a.expanding-access {
+  background: #4DAABE;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-tags\.scss}line{font-family:\0000375}}
+.post-tags a.expanding-access:before {
+  border-color: transparent #4DAABE transparent transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-project\.scss}line{font-family:\000031}}
+.project-team-arrow {
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-project\.scss}line{font-family:\000034}}
+.project-team-arrow[data-length='1'] {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-project\.scss}line{font-family:\000038}}
+.project-team-arrow.team-c-prev[data-index='1'], .project-team-arrow[data-last='yes'] {
+  color: #ccc;
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-project\.scss}line{font-family:\0000315}}
+.team-carouse-nav[data-length='1'] {
+  display: none;
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-project\.scss}line{font-family:\0000319}}
+  .team-carouse-nav[data-length='2'][data-mode='full'] {
+    display: none;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-project\.scss}line{font-family:\0000326}}
+.new-short-content {
+  min-height: 150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-project\.scss}line{font-family:\0000330}}
+.funder-logo {
+  padding: 0 15px;
+  display: inline-block;
+  width: 50%;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-project\.scss}line{font-family:\0000330}}
+  .funder-logo {
+    width: 33.33%;
+  }
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-project\.scss}line{font-family:\0000330}}
+  .funder-logo {
+    width: 25%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\000031}}
+.new-highlight-box {
+  background-color: #28517A, #4DAABE, #7AA328, #7A2828;
+  margin-bottom: 30px;
+  background-image: url(../img/bg-new-nav-bottom.png);
+  background-position: right center;
+  background-size: auto 130%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000310}}
+.new-highlight-box .inner-box {
+  padding: 140px 0 0 0;
+  background-size: cover;
+  min-height: 240px;
+  position: relative;
+  border: 1px solid #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000318}}
+.new-highlight-box .inner-box-background {
+  background-color: rgba(50, 50, 50, 0.6);
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000328}}
+.new-highlight-box-light {
+  background-color: #E6EDD5, #F0B59F, #B3DEE7, #FFE2F3, #D09F9F, #7A94AE, #E6EDD5, #F0B59F, #B3DEE7;
+  margin-bottom: 30px;
+  background-image: url(../img/bg-wwwf-news-b.png);
+  background-position: -10px center;
+  background-size: auto 130%;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000336}}
+.new-highlight-box-light .inner-box {
+  padding: 170px 20px 20px 20px;
+  background-size: cover;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+.news-column:nth-child(1) .new-highlight-box-light {
+  background-color: #E6EDD5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+.news-column:nth-child(2) .new-highlight-box-light {
+  background-color: #F0B59F;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+.news-column:nth-child(3) .new-highlight-box-light {
+  background-color: #B3DEE7;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+.news-column:nth-child(4) .new-highlight-box-light {
+  background-color: #FFE2F3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+.news-column:nth-child(5) .new-highlight-box-light {
+  background-color: #D09F9F;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+.news-column:nth-child(6) .new-highlight-box-light {
+  background-color: #7A94AE;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+.news-column:nth-child(1) .new-highlight-box-light {
+  background-color: #E6EDD5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+.news-column:nth-child(2) .new-highlight-box-light {
+  background-color: #F0B59F;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000345}}
+.news-column:nth-child(3) .new-highlight-box-light {
+  background-color: #B3DEE7;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000354}}
+.news-column:nth-child(1) .new-highlight-box {
+  background-color: #28517A;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000354}}
+.news-column:nth-child(2) .new-highlight-box {
+  background-color: #4DAABE;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000354}}
+.news-column:nth-child(3) .new-highlight-box {
+  background-color: #7AA328;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000354}}
+.news-column:nth-child(4) .new-highlight-box {
+  background-color: #7A2828;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000360}}
+.news-filter {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(239, 239, 239, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000366}}
+.selector {
+  width: 100%;
+  padding: 10px 48px 10px 8px;
+  background-image: url("../img/ico-arraw-selector.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  outline: none !important;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 0.01px;
+  text-overflow: "";
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 2px solid transparent;
+  content: "";
+  background-color: #fff;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000366}}
+  .selector {
+    margin-bottom: 0;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\0000397}}
+.new-brief {
+  min-height: 320px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\00003101}}
+.news-no-result {
+  text-align: center;
+  color: #666;
+  padding: 200px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\00003107}}
+.input-daterange {
+  height: 46px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\00003110}}
+.input-daterange input {
+  height: 46px;
+  border: none;
+  font-size: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-news\.scss}line{font-family:\00003116}}
+.input-daterange span.input-group-addon {
+  border: none;
+  color: #aaa;
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-jobs\.scss}line{font-family:\000032}}
+.post-container h2 {
+  font-size: 1.5em;
+  color: #28517A;
+  padding-top: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-jobs\.scss}line{font-family:\000039}}
+.post-container h3 {
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-jobs\.scss}line{font-family:\0000314}}
+.post-container h4 {
+  font-size: 1em;
+  color: #95A5A6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-search\.scss}line{font-family:\000033}}
+.search-results .page-header h1 {
+  font-size: 1.4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-search\.scss}line{font-family:\000038}}
+.search-results article {
+  margin-bottom: 2em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-search\.scss}line{font-family:\0000313}}
+.search-results article .author, .search-results article .comments-link, .search-results article .edit-link {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-search\.scss}line{font-family:\0000317}}
+.search-results article img, .search-results article object, .search-results article iframe {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-search\.scss}line{font-family:\0000321}}
+.search-results article .entry-footer {
+  margin-top: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-search\.scss}line{font-family:\0000326}}
+.search-results .entry-title {
+  font-size: 1.3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-search\.scss}line{font-family:\0000330}}
+.search-results .cat-links {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-search\.scss}line{font-family:\0000334}}
+.search-results .navigation.pagination {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-search\.scss}line{font-family:\0000337}}
+.search-results .navigation.pagination .screen-reader-text {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-search\.scss}line{font-family:\0000341}}
+.search-results .navigation.pagination .nav-links {
+  width: 100%;
+  text-align: center;
+}

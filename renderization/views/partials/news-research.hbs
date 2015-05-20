@@ -1,0 +1,154 @@
+<!-- INTRO BLOCK -->
+<div class="main-intro-section mintro-section-c-green txt-c overfh m-xl-bottom">
+  <div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
+    <h3 class="no-m-top m-xs-bottom fbold">{{data.news-index.title}}</h3>
+    <h4 class="m-s-bottom m-xs-top">{{#labels}}{{connecting_people}}{{/labels}}</h4>
+    <div class="c-s-separator-intro c-obj"></div>
+  </div>
+</div>
+
+<!-- SUBNAVS -->
+<div class="global-content clearb overfh">
+
+  <div class="sunav-left hidden-sm hidden-xs">
+
+    <div class="c-subnav">
+
+      {{{navigation-about-us}}}
+
+    </div><!--end c-subnav-->
+
+  </div>
+
+  {{>social}}
+
+  <!--CONTENT BLOCK-->
+  <div class="container-max-height">
+
+  <div class="container-fluid pos-content p-xxl-bottom main-content-st">
+
+    <div class="row m-l-bottom">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <nav>
+          <ul class="n-breadscrumb">
+            <li class="item-bs displayb"><a href="{{host}}" class="item-a-bs avisibility">{{#labels}}{{home}}{{/labels}}</a></li>
+            <li class="item-bs displayb"><a href="{{host}}/{{data.news-index.page}}" class="item-a-bs item-a-bs-active">{{data.news-index.title}}</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!--end Breadcrumb-->
+
+    <div class="row">
+      {{#data.news-index.highlighted}}
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 news-column">
+          <div class="new-highlight-box">
+            <div class="inner-box" style="background-image:url({{image}});">
+              <div class="inner-box-background">
+                <h4 class="no-m-top no-m-bottom fw-mlh txt-xxl"><a href="{{url}}" class="acontrast">{{title}}</a></h4>
+                <span class="news-date c-contrast displayb m-xs-top txt-mm">{{date}}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/data.news-index.highlighted}}
+    </div>
+
+    {{#if data.news-index.filter}}
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="container-fluid">
+          <form action="{{host}}/{{data.news-index.page}}" method="GET" class="row p-l-top p-l-bottom news-filter" id="filters">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
+              <div class="input-daterange input-group" id="datepicker">
+                  <input type="text" class="input-sm form-control" id="start" placeholder="{{labels.from}}" value="{{data.news-index.starts}}" />
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                  </span>
+                  <input type="text" class="input-sm form-control" id="end" placeholder="{{labels.to}}" value="{{data.news-index.ends}}" />
+              </div>
+            </div>
+            <input type="hidden" class="start-hidden" name="starts" value="{{data.news-index.starts}}" />
+            <input type="hidden" class="end-hidden" name="ends" value="{{data.news-index.ends}}" />
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
+              <select name="pr" class="selector c-g60">
+                <option value="" selected>{{labels.any_project}}</option>
+                {{#data.news-index.projects}}
+                  <option value="{{id}}" {{selected}} data-goal>{{title}}</option>
+                  {{#projects}}
+                    <option value="{{id}}" {{selected}}>&nbsp;&nbsp;&nbsp;&nbsp;{{title}}</option>
+                  {{/projects}}
+                {{/data.news-index.projects}}
+              </select>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+              <input type="submit" class="wf-btn wf-btn-success no-border w100 text-center no-p-lat" value="{{labels.apply_filters}}" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    {{/if}}
+
+    <div class="row p-xl-top">
+      {{#data.news-index.rest}}
+        <div class="col-xs-12 col-sd-12 col-md-4 col-lg-4 m-l-bottom news-column">
+          <div class="new-highlight-box-light">
+            <div class="inner-box" style="background-image:url({{image}});"></div>
+          </div>
+          <div class="new-brief">
+            <div class="p-m-bottom">
+              <h4 class="no-m-top no-m-bottom fw-mlh txt-xxl"><a href="{{url}}" class="">{{title}}</a></h4>
+              <span class="news-date displayb m-xs-top txt-mm">{{date}}</span>
+            </div>
+            <p>
+              {{{short_content}}}
+            </p>
+          </div>
+        </div>
+      {{/data.news-index.rest}}
+      {{^data.news-index.rest}}
+        <div class="news-no-result">
+          No result.
+        </div>
+      {{/data.news-index.rest}}
+    </div>
+
+    <div class="row">
+      <div class="col-xs-5 col-sm-4 col-md-4 col-lg-2">
+        {{#data.news-index.previous}}
+        <form action="{{host}}/{{page}}/page/{{value}}" method="GET" id="filters">
+          <input type="hidden" class="start-hidden" name="starts" value="{{starts}}" />
+          <input type="hidden" class="end-hidden" name="ends" value="{{ends}}" />
+          <button type="submit" class="wf-btn wf-btn-success no-border w100 text-center no-p-lat">
+            <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+            Newer posts
+          </button>
+        </form>
+        {{/data.news-index.previous}}
+      </div>
+      <div class="col-xs-2 col-sm-4 col-md-4 col-lg-8"></div>
+      <div class="col-xs-5 col-sm-4 col-md-4 col-lg-2">
+        {{#data.news-index.next}}
+        <form action="{{host}}/{{page}}/page/{{value}}" method="GET" id="filters">
+          <input type="hidden" class="start-hidden" name="starts" value="{{starts}}" />
+          <input type="hidden" class="end-hidden" name="ends" value="{{ends}}" />
+          <button type="submit" class="wf-btn wf-btn-success no-border w100 text-center no-p-lat">
+            Older posts
+            <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+          </button>
+        </form>
+        {{/data.news-index.next}}
+      </div>
+    </div>
+
+  </div>
+  <!--end container block-->
+
+  </div>
+
+
+</div><!--end global content-->
+
+<script src="{{path}}/js/vendor/bootstrap-datepicker.min.js"></script>
+<script src="{{path}}/js/news.js"></script>

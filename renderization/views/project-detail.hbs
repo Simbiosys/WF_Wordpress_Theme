@@ -1,0 +1,285 @@
+	<!-- INTRO BLOCK -->
+	<div class="main-intro-section mintro-section-c-blueb txt-c overfh m-xl-bottom">
+		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
+			<h3 class="no-m-top m-xs-bottom fbold">{{data.project.name}}</h3>
+			<h4 class="m-s-bottom m-xs-top">{{data.project.goal.name}}</h4>
+			<div class="c-s-separator-intro c-obj"></div>
+		</div>
+	</div>
+
+	<!--CONTENT BLOCK-->
+
+	<div class="max-content-social">
+
+		{{>social-m}}
+
+		<div class="container-fluid adj-cont-fluid main-content-st">
+
+			<div class="row m-l-bottom">
+
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<nav>
+						<ul class="n-breadscrumb">
+							<li class="item-bs displayb"><a href="{{host}}" class="item-a-bs avisibility">{{#labels}}{{home}}{{/labels}}</a></li>
+							<li class="item-bs displayb"><a href="{{host}}/our-work" class="item-a-bs avisibility">{{#labels}}{{our_work_breadcrumb}}{{/labels}}</a></li>
+							<li class="item-bs displayb"><a href="{{host}}/our-work#{{data.project.goal.identifier}}" class="item-a-bs avisibility">{{data.project.goal.name}}</a></li>
+							<li class="item-bs displayb item-a-bs-active">{{data.project.name}}</li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+			<!--end Breadcrumb-->
+
+
+			<div class="row">
+
+				<div class="col-lg-12 col-md-12 col-sm-12">
+
+					<div class="hero-project" style="background-image: url({{data.project.image}});">
+
+						<div class="h-p-intro">
+
+							<header class="r-pos adj-pos-header-project">
+								<h4 class="c-contrast txt-xxl fbold displayb h-p-i-header">{{data.project.name}}</h4>
+								<span class="h-p-i-arrow"></span>
+							</header>
+
+							<div class="h-p-i-content">
+								{{{data.project.description}}}
+								{{#if data.project.only_url}}
+									{{#if data.project.url}}
+										<a href="{{data.project.url}}" target="_blank" class="wf-btn wf-btn-success txt-c m-l-top m-s-bottom">{{#labels}}{{visit_microsite}}{{/labels}}</a>
+										<span class="m-s-top displayb txt-c txt-s c-g60 m-l-bottom"><strong>{{#labels}}{{note}}{{/labels}}:</strong> {{#labels}}{{external_link}}{{/labels}}.</span>
+									{{else}}
+										<a href="#more_info" class="wf-btn wf-btn-success txt-c m-l-top m-s-bottom">{{#labels}}{{read_more}}{{/labels}}</a>
+									{{/if}}
+								{{/if}}
+							</div>
+
+						</div>
+
+					</div>
+					<p class="text-right m-s-top m-right c-g40 txt-s">{{{data.project.credits}}}</p>
+
+				</div>
+
+			</div><!--end row-->
+
+
+			<div class="row m-xl-top b-bottom">
+
+				{{#if data.project.further}}
+				<div class="col-lg-7 col-md-7 col-sm-8 col-xs-12 overfh m-xl-bottom b-right col-team">
+				{{else}}
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 overfh m-xl-bottom col-team">
+				{{/if}}
+
+					<h4 class="displayb no-m-top m-l-bottom">{{#labels}}{{team_members}}{{/labels}} <span class="uppc fbold">{{#labels}}{{involved}}{{/labels}}</span></h4>
+
+					<div class="team-carousel-content r-pos">
+
+						<div class="team-project-carousel" {{^data.project.further}}data-mode="full"{{/data.project.further}}>
+							{{#data.project.people}}
+							<div class="item">
+								<div class="tpc-photo fleft">
+									<img src="{{image}}" class="img-responsive">
+								</div>
+
+								<div class="tpc-content overfh">
+									<h4 class="no-m-top no-m-bottom">{{name}}</h4>
+									<p class="m-xs-bottom"><a href="mailto:{{email}}" class="avisibility"><span class="icon-mail adj-icon-svg"></span> Send Mail</a></p>
+									{{{description}}}
+									<p class="text-right m-s-top"><a href='{{url}}'>Read more</a></p>
+								</div>
+							</div>
+							{{/data.project.people}}
+
+						</div><!--end carousel-->
+
+						<div class="team-carouse-nav hidden-xs" data-length="{{data.project.people_length}}" {{^data.project.further}}data-mode="full"{{/data.project.further}}>
+							<span class="displayib txt-s uppc c-g60 adj-nav-ind-team">
+							<strong class="current-team txt-m">1</strong> of {{data.project.people_length}} project team members</span>
+
+							<a href="javascript:void(0)" class="team-c-prev project-team-arrow" data-index="1" data-length="{{data.project.people_length}}"><span class="glyphicon glyphicon-menu-left displayib txt-xxl" aria-hidden="true"></span></a>
+							<a href="javascript:void(0)" class="team-c-next project-team-arrow" data-index="1" data-length="{{data.project.people_length}}"><span class="glyphicon glyphicon-menu-right displayib txt-xxl" aria-hidden="true"></span></a>
+						</div>
+
+					</div>
+
+				</div>
+
+				{{#if data.project.further}}
+					<div class="col-lg-5 col-md-5 col-sm-4 col-xs-12">
+
+						<h4 class="displayb no-m-top m-l-bottom">{{#labels}}{{further}}{{/labels}} <span class="uppc fbold">{{#labels}}{{information}}{{/labels}}</span></h4>
+
+						{{#if data.project.calendar}}
+							<span class="icon-calendar displayb txt-c txt-xxl"></span>
+
+							<div class="b-top overfh txt-c m-s-top">
+								<div class="w50 fleft">
+									<p class="uppc txt-xs m-s-top no-m-bottom">{{#labels}}{{project_starts}}{{/labels}}</p>
+									<p class="uppc txt-l fbold c-success">{{data.project.start_date}}</p>
+								</div>
+								<div class="w50 fleft bg-g20">
+									<p class="uppc txt-xs m-s-top no-m-bottom">{{#labels}}{{project_ends}}{{/labels}}</p>
+									<p class="uppc txt-l c-warning">{{data.project.end_date}}</p>
+								</div>
+							</div>
+						{{/if}}
+
+						{{#if data.project.url}}
+							<a href="{{data.project.url}}" target="_blank" class="wf-btn wf-btn-success txt-c m-l-top m-s-bottom">{{#labels}}{{visit_microsite}}{{/labels}}</a>
+							<span class="m-s-top displayb txt-c txt-s c-g60 m-l-bottom"><strong>{{#labels}}{{note}}{{/labels}}:</strong> {{#labels}}{{external_link}}{{/labels}}.</span>
+						{{else}}
+							<a href="#more_info" class="wf-btn wf-btn-success txt-c m-l-top m-s-bottom">{{#labels}}{{read_more}}{{/labels}}</a>
+						{{/if}}
+
+					</div>
+				{{/if}}
+
+			</div>
+
+			{{#if data.project.content}}
+			<div class="row p-xl-top p-l-bottom b-bottom">
+				<div class="col-xs-12 post-container">
+					{{{data.project.content}}}
+				</div>
+			</div>
+			{{/if}}
+
+			<div class="row p-xl-top p-l-bottom b-bottom">
+
+				{{^data.project.has_research}}
+					<h4 class="col-xs-12 no-m-top m-l-bottom">{{#labels}}{{related}}{{/labels}} <span class="uppc fbold">{{#labels}}{{_news}}{{/labels}}</span></h4>
+				{{/data.project.has_research}}
+
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  m-l-bottom">
+					{{#data.project.has_research}}
+						<h4 class="displayb no-m-top m-l-bottom">{{#labels}}{{related}}{{/labels}} <span class="uppc fbold">{{#labels}}{{_news}}{{/labels}}</span></h4>
+					{{/data.project.has_research}}
+					{{#data.project.news}}
+					<article class="content-new m-s-top new-short-content">
+						<h4 class="no-m-bottom no-m-top"><a href="{{url}}" class="avisibility">{{title}}</a></h4>
+						<p class="c-new-info m-xs-bottom m-xs-top"><span class="c-new-date c-g40 fmed">{{date}}</span></p>
+						<p class="c-new-intro f-merryw">{{{short_content}}}</p>
+					</article>
+					{{/data.project.news}}
+
+				</div>
+
+				{{#data.project.has_research}}
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<h4 class="displayb no-m-top m-l-bottom">{{#labels}}{{related}}{{/labels}} <span class="uppc fbold">{{#labels}}{{_research}}{{/labels}}</span></h4>
+						{{#data.project.research}}
+						<article class="content-new m-s-top new-short-content">
+							<h4 class="no-m-bottom no-m-top"><a href="{{url}}" class="avisibility">{{title}}</a></h4>
+							<p class="c-new-info m-xs-bottom m-xs-top"><span class="c-new-date c-g40 fmed">{{date}}</span></p>
+							<p class="c-new-intro f-merryw">{{{short_content}}}</p>
+						</article>
+						{{/data.project.research}}
+
+					</div>
+				{{/data.project.has_research}}
+				{{^data.project.has_research}}
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					{{#data.project.more_news}}
+					<article class="content-new m-s-top new-short-content">
+						<h4 class="no-m-bottom no-m-top"><a href="{{url}}" class="avisibility">{{title}}</a></h4>
+						<p class="c-new-info m-xs-bottom m-xs-top"><span class="c-new-date c-g40 fmed">{{date}}</span></p>
+						<p class="c-new-intro f-merryw">{{{short_content}}}</p>
+					</article>
+					{{/data.project.more_news}}
+
+				</div>
+				{{/data.project.has_research}}
+
+			</div>
+
+			{{#if data.project.highlight}}
+			<div class="row p-xl-top p-xl-bottom" id="more_info">
+				<div class="col-sm-12">
+					<div class="post-container">{{{data.project.highlight}}}</div>
+				</div>
+			</div>
+			{{/if}}
+
+			{{#if data.project.funders}}
+			<div class="p-xl-top p-xl-bottom b-top">
+				<div class="row">
+					<div class="col-xs-12 m-s-bottom">
+						<h4 class="displayb no-m-top fbold">{{#labels}}{{funders}}{{/labels}}</h4>
+					</div>
+				</div>
+				<div class="row m-l-bottom">
+					<div class="col-xs-12 text-center">
+						{{#data.project.funders}}
+							<div class="funder-logo m-l-bottom">
+								{{#if url}}
+								<a href="{{url}}">
+									<img src ="{{image}}" class="img-responsive c-obj" alt="{{name}}">
+								</a>
+								{{else}}
+								<img src ="{{image}}" class="img-responsive c-obj" alt="{{name}}">
+								{{/if}}
+							</div>
+						{{/data.project.funders}}
+					</div> <!--end founders & partners -->
+				</div>
+			</div>
+			{{/if}}
+
+			{{#if data.project.secondary_funders}}
+			<div class="p-xl-top p-xl-bottom b-top">
+				<div class="row">
+					<div class="col-xs-12 m-s-bottom">
+						<h4 class="displayb no-m-top fbold">{{#labels}}{{other_funders}}{{/labels}}</h4>
+					</div>
+				</div>
+				<div class="row m-l-bottom">
+					<div class="col-xs-12 text-center">
+						{{#data.project.secondary_funders}}
+							<div class="funder-logo m-l-bottom">
+								{{#if url}}
+								<a href="{{url}}">
+									<img src ="{{image}}" class="img-responsive c-obj" alt="{{name}}">
+								</a>
+								{{else}}
+								<img src ="{{image}}" class="img-responsive c-obj" alt="{{name}}">
+								{{/if}}
+							</div>
+						{{/data.project.secondary_funders}}
+					</div> <!--end founders & partners -->
+				</div>
+			</div>
+			{{/if}}
+
+		</div><!--end container block-->
+
+
+	</div><!--end max content social-->
+
+
+	<div class="bg-g20_50">
+		<div class="container">
+
+			<div class="row p-xl-bottom">
+
+				{{#data.project.goals}}
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<h4 class="displayb no-m-top c-blue p-l-top b-t-{{index}}">{{name}}</h4>
+					<ul class="list-simple">
+						{{#projects}}
+							<li class="li-ls"><a href="{{url}}" class="avisibility">{{title}}</a></li>
+						{{/projects}}
+					</ul>
+				</div>
+				{{/data.project.goals}}
+
+			</div>
+
+		</div>
+	</div>
+
+	<script src="{{path}}/js/project.js"></script>
