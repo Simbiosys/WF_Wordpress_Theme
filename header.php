@@ -15,4 +15,5 @@
 	$renderer = $controller->renderer;
     
 	echo $renderer->renderTemplate("header");
+	wp_head();
 ?>

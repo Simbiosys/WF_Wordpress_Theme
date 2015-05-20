@@ -809,6 +809,313 @@
 
 							</div><!--end grid-mb 2-->
 
+							<div class="gird-dk visible-lg">
+
+								'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['24']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['24'] : null))) ? '
+								<div class="b-team b-team-large fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['24']['image']) && is_array($in['data']['team-1']['24'])) ? $in['data']['team-1']['24']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+									<div class="b-team-qview p-s-bottom p-l-top">
+										<a href="'.htmlentities((string)((isset($in['data']['team-1']['24']['url']) && is_array($in['data']['team-1']['24'])) ? $in['data']['team-1']['24']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">'.htmlentities((string)((isset($in['data']['team-1']['24']['name']) && is_array($in['data']['team-1']['24'])) ? $in['data']['team-1']['24']['name'] : null), ENT_QUOTES, 'UTF-8').'</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">'.htmlentities((string)((isset($in['data']['team-1']['24']['position']) && is_array($in['data']['team-1']['24'])) ? $in['data']['team-1']['24']['position'] : null), ENT_QUOTES, 'UTF-8').'</span></a>
+									</div>
+									<div class="b-team-overlay txt-c">
+										<div class="b-team-tglance">
+											<a href="'.htmlentities((string)((isset($in['data']['team-1']['24']['url']) && is_array($in['data']['team-1']['24'])) ? $in['data']['team-1']['24']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+										</div>
+									</div>
+								</div>
+								' : '').'
+
+								<div class="b-team fleft">
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['25']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['25'] : null))) ? '
+									<div class="b-team-content b-team-small displayb" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['25']['image']) && is_array($in['data']['team-1']['25'])) ? $in['data']['team-1']['25']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="'.htmlentities((string)((isset($in['data']['team-1']['25']['url']) && is_array($in['data']['team-1']['25'])) ? $in['data']['team-1']['25']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">'.htmlentities((string)((isset($in['data']['team-1']['25']['name']) && is_array($in['data']['team-1']['25'])) ? $in['data']['team-1']['25']['name'] : null), ENT_QUOTES, 'UTF-8').'</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">'.htmlentities((string)((isset($in['data']['team-1']['25']['position']) && is_array($in['data']['team-1']['25'])) ? $in['data']['team-1']['25']['position'] : null), ENT_QUOTES, 'UTF-8').'</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="'.htmlentities((string)((isset($in['data']['team-1']['25']['url']) && is_array($in['data']['team-1']['25'])) ? $in['data']['team-1']['25']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									' : '').'
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['26']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['26'] : null))) ? '
+									<div class="b-team-content b-team-small  displayb" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['26']['image']) && is_array($in['data']['team-1']['26'])) ? $in['data']['team-1']['26']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="'.htmlentities((string)((isset($in['data']['team-1']['26']['url']) && is_array($in['data']['team-1']['26'])) ? $in['data']['team-1']['26']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">'.htmlentities((string)((isset($in['data']['team-1']['26']['name']) && is_array($in['data']['team-1']['26'])) ? $in['data']['team-1']['26']['name'] : null), ENT_QUOTES, 'UTF-8').'</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">'.htmlentities((string)((isset($in['data']['team-1']['26']['position']) && is_array($in['data']['team-1']['26'])) ? $in['data']['team-1']['26']['position'] : null), ENT_QUOTES, 'UTF-8').'</span></a>
+										</div>
+
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="'.htmlentities((string)((isset($in['data']['team-1']['26']['url']) && is_array($in['data']['team-1']['26'])) ? $in['data']['team-1']['26']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									' : '').'
+
+								</div>
+
+
+								<div class="b-team fleft">
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['27']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['27'] : null))) ? '
+									<div class="b-team-content b-team-small displayb" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['27']['image']) && is_array($in['data']['team-1']['27'])) ? $in['data']['team-1']['27']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="'.htmlentities((string)((isset($in['data']['team-1']['27']['url']) && is_array($in['data']['team-1']['27'])) ? $in['data']['team-1']['27']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">'.htmlentities((string)((isset($in['data']['team-1']['27']['name']) && is_array($in['data']['team-1']['27'])) ? $in['data']['team-1']['27']['name'] : null), ENT_QUOTES, 'UTF-8').'</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">'.htmlentities((string)((isset($in['data']['team-1']['27']['position']) && is_array($in['data']['team-1']['27'])) ? $in['data']['team-1']['27']['position'] : null), ENT_QUOTES, 'UTF-8').'</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="'.htmlentities((string)((isset($in['data']['team-1']['27']['url']) && is_array($in['data']['team-1']['27'])) ? $in['data']['team-1']['27']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									' : '').'
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['28']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['28'] : null))) ? '
+									<div class="b-team-content b-team-small displayb" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['28']['image']) && is_array($in['data']['team-1']['28'])) ? $in['data']['team-1']['28']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="'.htmlentities((string)((isset($in['data']['team-1']['28']['url']) && is_array($in['data']['team-1']['28'])) ? $in['data']['team-1']['28']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">'.htmlentities((string)((isset($in['data']['team-1']['28']['name']) && is_array($in['data']['team-1']['28'])) ? $in['data']['team-1']['28']['name'] : null), ENT_QUOTES, 'UTF-8').'</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">'.htmlentities((string)((isset($in['data']['team-1']['28']['position']) && is_array($in['data']['team-1']['28'])) ? $in['data']['team-1']['28']['position'] : null), ENT_QUOTES, 'UTF-8').'</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="'.htmlentities((string)((isset($in['data']['team-1']['28']['url']) && is_array($in['data']['team-1']['28'])) ? $in['data']['team-1']['28']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									' : '').'
+
+								</div>
+
+								'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['29']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['29'] : null))) ? '
+								<div class="b-team b-team-large fleft p-l-top" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['29']['image']) && is_array($in['data']['team-1']['29'])) ? $in['data']['team-1']['29']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+									<div class="b-team-qview p-s-bottom p-l-top">
+										<a href="'.htmlentities((string)((isset($in['data']['team-1']['29']['url']) && is_array($in['data']['team-1']['29'])) ? $in['data']['team-1']['29']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">'.htmlentities((string)((isset($in['data']['team-1']['29']['name']) && is_array($in['data']['team-1']['29'])) ? $in['data']['team-1']['29']['name'] : null), ENT_QUOTES, 'UTF-8').'</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">'.htmlentities((string)((isset($in['data']['team-1']['29']['position']) && is_array($in['data']['team-1']['29'])) ? $in['data']['team-1']['29']['position'] : null), ENT_QUOTES, 'UTF-8').'</span></a>
+									</div>
+									<div class="b-team-overlay txt-c">
+										<div class="b-team-tglance">
+											<a href="'.htmlentities((string)((isset($in['data']['team-1']['29']['url']) && is_array($in['data']['team-1']['29'])) ? $in['data']['team-1']['29']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+										</div>
+									</div>
+								</div>
+								' : '').'
+
+
+							</div><!--end grid-dk 1-->
+
+
+							<div class="grid-mb hidden-lg">
+
+								<div class="clearb">
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['24']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['24'] : null))) ? '
+									<a href="'.htmlentities((string)((isset($in['data']['team-1']['24']['url']) && is_array($in['data']['team-1']['24'])) ? $in['data']['team-1']['24']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="b-team b-team-small fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['24']['image']) && is_array($in['data']['team-1']['24'])) ? $in['data']['team-1']['24']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">'.htmlentities((string)((isset($in['data']['team-1']['24']['name']) && is_array($in['data']['team-1']['24'])) ? $in['data']['team-1']['24']['name'] : null), ENT_QUOTES, 'UTF-8').'</strong> <span class="displayb txt-c txt-xs uppc c-g20">'.htmlentities((string)((isset($in['data']['team-1']['24']['position']) && is_array($in['data']['team-1']['24'])) ? $in['data']['team-1']['24']['position'] : null), ENT_QUOTES, 'UTF-8').'</span>
+										</span>
+									</a>
+									' : '').'
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['25']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['25'] : null))) ? '
+									<a href="'.htmlentities((string)((isset($in['data']['team-1']['25']['url']) && is_array($in['data']['team-1']['25'])) ? $in['data']['team-1']['25']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="b-team b-team-small fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['25']['image']) && is_array($in['data']['team-1']['25'])) ? $in['data']['team-1']['25']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">'.htmlentities((string)((isset($in['data']['team-1']['25']['name']) && is_array($in['data']['team-1']['25'])) ? $in['data']['team-1']['25']['name'] : null), ENT_QUOTES, 'UTF-8').'</strong> <span class="displayb txt-c txt-xs uppc c-g20">'.htmlentities((string)((isset($in['data']['team-1']['25']['position']) && is_array($in['data']['team-1']['25'])) ? $in['data']['team-1']['25']['position'] : null), ENT_QUOTES, 'UTF-8').'</span>
+										</span>
+									</a>
+									' : '').'
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['26']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['26'] : null))) ? '
+									<a href="'.htmlentities((string)((isset($in['data']['team-1']['26']['url']) && is_array($in['data']['team-1']['26'])) ? $in['data']['team-1']['26']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="b-team b-team-small fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['26']['image']) && is_array($in['data']['team-1']['26'])) ? $in['data']['team-1']['26']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">'.htmlentities((string)((isset($in['data']['team-1']['26']['name']) && is_array($in['data']['team-1']['26'])) ? $in['data']['team-1']['26']['name'] : null), ENT_QUOTES, 'UTF-8').'</strong> <span class="displayb txt-c txt-xs uppc c-g20">'.htmlentities((string)((isset($in['data']['team-1']['26']['position']) && is_array($in['data']['team-1']['26'])) ? $in['data']['team-1']['26']['position'] : null), ENT_QUOTES, 'UTF-8').'</span>
+										</span>
+									</a>
+									' : '').'
+
+								</div>
+
+								<div class="clearb">
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['27']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['27'] : null))) ? '
+									<a href="'.htmlentities((string)((isset($in['data']['team-1']['27']['url']) && is_array($in['data']['team-1']['27'])) ? $in['data']['team-1']['27']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="b-team b-team-small fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['27']['image']) && is_array($in['data']['team-1']['27'])) ? $in['data']['team-1']['27']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">'.htmlentities((string)((isset($in['data']['team-1']['27']['name']) && is_array($in['data']['team-1']['27'])) ? $in['data']['team-1']['27']['name'] : null), ENT_QUOTES, 'UTF-8').'</strong> <span class="displayb txt-c txt-xs uppc c-g20">'.htmlentities((string)((isset($in['data']['team-1']['27']['position']) && is_array($in['data']['team-1']['27'])) ? $in['data']['team-1']['27']['position'] : null), ENT_QUOTES, 'UTF-8').'</span>
+										</span>
+									</a>
+									' : '').'
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['28']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['28'] : null))) ? '
+									<a href="'.htmlentities((string)((isset($in['data']['team-1']['28']['url']) && is_array($in['data']['team-1']['28'])) ? $in['data']['team-1']['28']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="b-team b-team-small fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['28']['image']) && is_array($in['data']['team-1']['28'])) ? $in['data']['team-1']['28']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">'.htmlentities((string)((isset($in['data']['team-1']['28']['name']) && is_array($in['data']['team-1']['28'])) ? $in['data']['team-1']['28']['name'] : null), ENT_QUOTES, 'UTF-8').'</strong> <span class="displayb txt-c txt-xs uppc c-g20">'.htmlentities((string)((isset($in['data']['team-1']['28']['position']) && is_array($in['data']['team-1']['28'])) ? $in['data']['team-1']['28']['position'] : null), ENT_QUOTES, 'UTF-8').'</span>
+										</span>
+									</a>
+									' : '').'
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['29']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['29'] : null))) ? '
+									<a href="'.htmlentities((string)((isset($in['data']['team-1']['5']['url']) && is_array($in['data']['team-1']['5'])) ? $in['data']['team-1']['5']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="b-team b-team-small fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['29']['image']) && is_array($in['data']['team-1']['29'])) ? $in['data']['team-1']['29']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">'.htmlentities((string)((isset($in['data']['team-1']['29']['name']) && is_array($in['data']['team-1']['29'])) ? $in['data']['team-1']['29']['name'] : null), ENT_QUOTES, 'UTF-8').'</strong> <span class="displayb txt-c txt-xs uppc c-g20">'.htmlentities((string)((isset($in['data']['team-1']['29']['position']) && is_array($in['data']['team-1']['29'])) ? $in['data']['team-1']['29']['position'] : null), ENT_QUOTES, 'UTF-8').'</span>
+										</span>
+									</a>
+									' : '').'
+
+								</div>
+
+							</div><!--end grid-mb 1-->
+
+							<div class="gird-dk visible-lg">
+
+								<div class="b-team fleft">
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['30']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['30'] : null))) ? '
+									<div class="b-team-content b-team-small displayb" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['30']['image']) && is_array($in['data']['team-1']['30'])) ? $in['data']['team-1']['30']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="'.htmlentities((string)((isset($in['data']['team-1']['30']['url']) && is_array($in['data']['team-1']['30'])) ? $in['data']['team-1']['30']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">'.htmlentities((string)((isset($in['data']['team-1']['30']['name']) && is_array($in['data']['team-1']['30'])) ? $in['data']['team-1']['30']['name'] : null), ENT_QUOTES, 'UTF-8').'</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">'.htmlentities((string)((isset($in['data']['team-1']['30']['position']) && is_array($in['data']['team-1']['30'])) ? $in['data']['team-1']['30']['position'] : null), ENT_QUOTES, 'UTF-8').'</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="'.htmlentities((string)((isset($in['data']['team-1']['30']['url']) && is_array($in['data']['team-1']['30'])) ? $in['data']['team-1']['30']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									' : '').'
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['31']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['31'] : null))) ? '
+									<div class="b-team-content b-team-small  displayb" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['31']['image']) && is_array($in['data']['team-1']['31'])) ? $in['data']['team-1']['31']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="'.htmlentities((string)((isset($in['data']['team-1']['31']['url']) && is_array($in['data']['team-1']['31'])) ? $in['data']['team-1']['31']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">'.htmlentities((string)((isset($in['data']['team-1']['31']['name']) && is_array($in['data']['team-1']['31'])) ? $in['data']['team-1']['31']['name'] : null), ENT_QUOTES, 'UTF-8').'</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">'.htmlentities((string)((isset($in['data']['team-1']['31']['position']) && is_array($in['data']['team-1']['31'])) ? $in['data']['team-1']['31']['position'] : null), ENT_QUOTES, 'UTF-8').'</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="'.htmlentities((string)((isset($in['data']['team-1']['31']['url']) && is_array($in['data']['team-1']['31'])) ? $in['data']['team-1']['31']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									' : '').'
+
+								</div>
+
+								'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['32']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['32'] : null))) ? '
+								<div class="b-team b-team-large fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['32']['image']) && is_array($in['data']['team-1']['32'])) ? $in['data']['team-1']['32']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+									<div class="b-team-qview p-s-bottom p-l-top">
+										<a href="'.htmlentities((string)((isset($in['data']['team-1']['32']['url']) && is_array($in['data']['team-1']['32'])) ? $in['data']['team-1']['32']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">'.htmlentities((string)((isset($in['data']['team-1']['32']['name']) && is_array($in['data']['team-1']['32'])) ? $in['data']['team-1']['32']['name'] : null), ENT_QUOTES, 'UTF-8').'</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">'.htmlentities((string)((isset($in['data']['team-1']['32']['position']) && is_array($in['data']['team-1']['32'])) ? $in['data']['team-1']['32']['position'] : null), ENT_QUOTES, 'UTF-8').'</span></a>
+									</div>
+									<div class="b-team-overlay txt-c">
+										<div class="b-team-tglance">
+											<a href="'.htmlentities((string)((isset($in['data']['team-1']['32']['url']) && is_array($in['data']['team-1']['32'])) ? $in['data']['team-1']['32']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+										</div>
+									</div>
+								</div>
+								' : '').'
+
+								<div class="b-team fleft">
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['33']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['33'] : null))) ? '
+									<div class="b-team-content b-team-small displayb" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['33']['image']) && is_array($in['data']['team-1']['33'])) ? $in['data']['team-1']['33']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="'.htmlentities((string)((isset($in['data']['team-1']['33']['url']) && is_array($in['data']['team-1']['33'])) ? $in['data']['team-1']['33']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">'.htmlentities((string)((isset($in['data']['team-1']['33']['name']) && is_array($in['data']['team-1']['33'])) ? $in['data']['team-1']['33']['name'] : null), ENT_QUOTES, 'UTF-8').'</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">'.htmlentities((string)((isset($in['data']['team-1']['33']['position']) && is_array($in['data']['team-1']['33'])) ? $in['data']['team-1']['33']['position'] : null), ENT_QUOTES, 'UTF-8').'</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="'.htmlentities((string)((isset($in['data']['team-1']['33']['url']) && is_array($in['data']['team-1']['33'])) ? $in['data']['team-1']['33']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									' : '').'
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['34']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['34'] : null))) ? '
+									<div class="b-team-content b-team-small displayb" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['34']['image']) && is_array($in['data']['team-1']['34'])) ? $in['data']['team-1']['34']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<div class="b-team-qview p-s-bottom p-l-top">
+											<a href="'.htmlentities((string)((isset($in['data']['team-1']['34']['url']) && is_array($in['data']['team-1']['34'])) ? $in['data']['team-1']['34']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">'.htmlentities((string)((isset($in['data']['team-1']['34']['name']) && is_array($in['data']['team-1']['34'])) ? $in['data']['team-1']['34']['name'] : null), ENT_QUOTES, 'UTF-8').'</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">'.htmlentities((string)((isset($in['data']['team-1']['34']['position']) && is_array($in['data']['team-1']['34'])) ? $in['data']['team-1']['34']['position'] : null), ENT_QUOTES, 'UTF-8').'</span></a>
+										</div>
+										<div class="b-team-overlay txt-c">
+											<div class="b-team-tglance">
+												<a href="'.htmlentities((string)((isset($in['data']['team-1']['34']['url']) && is_array($in['data']['team-1']['34'])) ? $in['data']['team-1']['34']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+											</div>
+										</div>
+									</div>
+									' : '').'
+
+								</div>
+
+								'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['35']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['35'] : null))) ? '
+								<div class="b-team b-team-large fleft p-l-top" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['35']['image']) && is_array($in['data']['team-1']['35'])) ? $in['data']['team-1']['35']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+									<div class="b-team-qview p-s-bottom p-l-top">
+										<a href="'.htmlentities((string)((isset($in['data']['team-1']['35']['url']) && is_array($in['data']['team-1']['35'])) ? $in['data']['team-1']['35']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="b-team-name displayb txt-c c-contrast txt-xl">'.htmlentities((string)((isset($in['data']['team-1']['35']['name']) && is_array($in['data']['team-1']['35'])) ? $in['data']['team-1']['35']['name'] : null), ENT_QUOTES, 'UTF-8').'</span><span class="displayb txt-c txt-xs uppc c-g20 adj_stit_team">'.htmlentities((string)((isset($in['data']['team-1']['35']['position']) && is_array($in['data']['team-1']['35'])) ? $in['data']['team-1']['35']['position'] : null), ENT_QUOTES, 'UTF-8').'</span></a>
+									</div>
+									<div class="b-team-overlay txt-c">
+										<div class="b-team-tglance">
+											<a href="'.htmlentities((string)((isset($in['data']['team-1']['35']['url']) && is_array($in['data']['team-1']['35'])) ? $in['data']['team-1']['35']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="acontrast displayb"><span class="icon-tglance displayb txt-xxl"></span><strong class="uppc fw-mlh">Read full profile</strong></a>
+										</div>
+									</div>
+								</div>
+								' : '').'
+
+
+							</div><!--end grid-dk 2-->
+
+
+							<div class="grid-mb hidden-lg">
+
+								<div class="clearb">
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['30']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['30'] : null))) ? '
+									<a href="'.htmlentities((string)((isset($in['data']['team-1']['30']['url']) && is_array($in['data']['team-1']['30'])) ? $in['data']['team-1']['30']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="b-team b-team-small fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['30']['image']) && is_array($in['data']['team-1']['30'])) ? $in['data']['team-1']['30']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">'.htmlentities((string)((isset($in['data']['team-1']['30']['name']) && is_array($in['data']['team-1']['30'])) ? $in['data']['team-1']['30']['name'] : null), ENT_QUOTES, 'UTF-8').'</strong> <span class="displayb txt-c txt-xs uppc c-g20">'.htmlentities((string)((isset($in['data']['team-1']['30']['position']) && is_array($in['data']['team-1']['30'])) ? $in['data']['team-1']['30']['position'] : null), ENT_QUOTES, 'UTF-8').'</span>
+										</span>
+									</a>
+									' : '').'
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['31']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['31'] : null))) ? '
+									<a href="'.htmlentities((string)((isset($in['data']['team-1']['31']['url']) && is_array($in['data']['team-1']['31'])) ? $in['data']['team-1']['31']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="b-team b-team-small fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['31']['image']) && is_array($in['data']['team-1']['31'])) ? $in['data']['team-1']['31']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">'.htmlentities((string)((isset($in['data']['team-1']['31']['name']) && is_array($in['data']['team-1']['31'])) ? $in['data']['team-1']['31']['name'] : null), ENT_QUOTES, 'UTF-8').'</strong> <span class="displayb txt-c txt-xs uppc c-g20">'.htmlentities((string)((isset($in['data']['team-1']['31']['position']) && is_array($in['data']['team-1']['31'])) ? $in['data']['team-1']['31']['position'] : null), ENT_QUOTES, 'UTF-8').'</span>
+										</span>
+									</a>
+									' : '').'
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['32']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['32'] : null))) ? '
+									<a href="'.htmlentities((string)((isset($in['data']['team-1']['32']['url']) && is_array($in['data']['team-1']['32'])) ? $in['data']['team-1']['32']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="b-team b-team-small fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['32']['image']) && is_array($in['data']['team-1']['32'])) ? $in['data']['team-1']['32']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">'.htmlentities((string)((isset($in['data']['team-1']['32']['name']) && is_array($in['data']['team-1']['32'])) ? $in['data']['team-1']['32']['name'] : null), ENT_QUOTES, 'UTF-8').'</strong> <span class="displayb txt-c txt-xs uppc c-g20">'.htmlentities((string)((isset($in['data']['team-1']['32']['position']) && is_array($in['data']['team-1']['32'])) ? $in['data']['team-1']['32']['position'] : null), ENT_QUOTES, 'UTF-8').'</span>
+										</span>
+									</a>
+									' : '').'
+
+								</div>
+
+
+								<div class="clearb">
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['33']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['33'] : null))) ? '
+									<a href="'.htmlentities((string)((isset($in['data']['team-1']['33']['url']) && is_array($in['data']['team-1']['33'])) ? $in['data']['team-1']['33']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="b-team b-team-small fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['33']['image']) && is_array($in['data']['team-1']['33'])) ? $in['data']['team-1']['33']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">'.htmlentities((string)((isset($in['data']['team-1']['33']['name']) && is_array($in['data']['team-1']['33'])) ? $in['data']['team-1']['33']['name'] : null), ENT_QUOTES, 'UTF-8').'</strong> <span class="displayb txt-c txt-xs uppc c-g20">'.htmlentities((string)((isset($in['data']['team-1']['33']['position']) && is_array($in['data']['team-1']['33'])) ? $in['data']['team-1']['33']['position'] : null), ENT_QUOTES, 'UTF-8').'</span>
+										</span>
+									</a>
+									' : '').'
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['34']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['34'] : null))) ? '
+									<a href="'.htmlentities((string)((isset($in['data']['team-1']['34']['url']) && is_array($in['data']['team-1']['34'])) ? $in['data']['team-1']['34']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="b-team b-team-small fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['34']['image']) && is_array($in['data']['team-1']['34'])) ? $in['data']['team-1']['34']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">'.htmlentities((string)((isset($in['data']['team-1']['34']['name']) && is_array($in['data']['team-1']['34'])) ? $in['data']['team-1']['34']['name'] : null), ENT_QUOTES, 'UTF-8').'</strong> <span class="displayb txt-c txt-xs uppc c-g20">'.htmlentities((string)((isset($in['data']['team-1']['34']['position']) && is_array($in['data']['team-1']['34'])) ? $in['data']['team-1']['34']['position'] : null), ENT_QUOTES, 'UTF-8').'</span>
+										</span>
+									</a>
+									' : '').'
+
+									'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['team-1']['35']) && is_array($in['data']['team-1'])) ? $in['data']['team-1']['35'] : null))) ? '
+									<a href="'.htmlentities((string)((isset($in['data']['team-1']['35']['url']) && is_array($in['data']['team-1']['35'])) ? $in['data']['team-1']['35']['url'] : null), ENT_QUOTES, 'UTF-8').'" class="b-team b-team-small fleft" style="background-image: url('.htmlentities((string)((isset($in['data']['team-1']['35']['image']) && is_array($in['data']['team-1']['35'])) ? $in['data']['team-1']['35']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+										<span class="b-team-qview p-s-bottom p-l-top">
+											<strong class="acontrast displayb b-team-name txt-xl txt-c fw-mlh">'.htmlentities((string)((isset($in['data']['team-1']['35']['name']) && is_array($in['data']['team-1']['35'])) ? $in['data']['team-1']['35']['name'] : null), ENT_QUOTES, 'UTF-8').'</strong> <span class="displayb txt-c txt-xs uppc c-g20">'.htmlentities((string)((isset($in['data']['team-1']['35']['position']) && is_array($in['data']['team-1']['35'])) ? $in['data']['team-1']['35']['position'] : null), ENT_QUOTES, 'UTF-8').'</span>
+										</span>
+									</a>
+									' : '').'
+
+								</div>
+
+							</div><!--end grid-mb 2-->
+
 
 							<!-- The remainder -->
 

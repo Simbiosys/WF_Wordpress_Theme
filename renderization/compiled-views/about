@@ -156,9 +156,6 @@
 
 		</div>
 
-
-
-
 		'.'<div class="social-nav hidden-sm hidden-xs">
   <div class="c-social">
     <nav>
@@ -174,10 +171,6 @@
 </div>
 '.'
 
-
-
-
-
 		<!--CONTENT BLOCK-->
 		<div class="container-max-height">
 
@@ -189,7 +182,7 @@
 					<nav>
 						<ul class="n-breadscrumb">
 							<li class="item-bs displayb"><a href="'.htmlentities((string)((isset($in['host']) && is_array($in)) ? $in['host'] : null), ENT_QUOTES, 'UTF-8').'" class="item-a-bs avisibility">'.$cx['funcs']['sec']($cx, ((isset($in['labels']) && is_array($in)) ? $in['labels'] : null), $in, false, function($cx, $in) {return ''.htmlentities((string)((isset($in['home']) && is_array($in)) ? $in['home'] : null), ENT_QUOTES, 'UTF-8').'';}).'</a></li>
-							<li class="item-bs displayb"><a href="#bs" class="item-a-bs item-a-bs-active">'.$cx['funcs']['sec']($cx, ((isset($in['labels']) && is_array($in)) ? $in['labels'] : null), $in, false, function($cx, $in) {return ''.htmlentities((string)((isset($in['about_us_breadcrumb']) && is_array($in)) ? $in['about_us_breadcrumb'] : null), ENT_QUOTES, 'UTF-8').'';}).'</a></li>
+							<li class="item-bs displayb item-a-bs-active">'.$cx['funcs']['sec']($cx, ((isset($in['labels']) && is_array($in)) ? $in['labels'] : null), $in, false, function($cx, $in) {return ''.htmlentities((string)((isset($in['about_us_breadcrumb']) && is_array($in)) ? $in['about_us_breadcrumb'] : null), ENT_QUOTES, 'UTF-8').'';}).'</li>
 						</ul>
 					</nav>
 				</div>
@@ -226,8 +219,8 @@
 					<div class="ad-st ad-st-getinvolved">
 
 						<div class="ad-st-content">
-							<h4 class="no-m-bottom txt-xxl"><a href="#getinvolved" class="acontrast">'.$cx['funcs']['sec']($cx, ((isset($in['labels']) && is_array($in)) ? $in['labels'] : null), $in, false, function($cx, $in) {return ''.htmlentities((string)((isset($in['support_us']) && is_array($in)) ? $in['support_us'] : null), ENT_QUOTES, 'UTF-8').'';}).'</a></h4>
-							<p><a href="#getinvolved" class="acontrast">'.$cx['funcs']['sec']($cx, ((isset($in['labels']) && is_array($in)) ? $in['labels'] : null), $in, false, function($cx, $in) {return ''.htmlentities((string)((isset($in['donate_volunteer']) && is_array($in)) ? $in['donate_volunteer'] : null), ENT_QUOTES, 'UTF-8').'';}).'</a></p>
+							<h4 class="no-m-bottom txt-xxl"><a href="'.htmlentities((string)((isset($in['host']) && is_array($in)) ? $in['host'] : null), ENT_QUOTES, 'UTF-8').'/take-action" class="acontrast">'.$cx['funcs']['sec']($cx, ((isset($in['labels']) && is_array($in)) ? $in['labels'] : null), $in, false, function($cx, $in) {return ''.htmlentities((string)((isset($in['support_us']) && is_array($in)) ? $in['support_us'] : null), ENT_QUOTES, 'UTF-8').'';}).'</a></h4>
+							<p><a href="'.htmlentities((string)((isset($in['host']) && is_array($in)) ? $in['host'] : null), ENT_QUOTES, 'UTF-8').'/take-action" class="acontrast">'.$cx['funcs']['sec']($cx, ((isset($in['labels']) && is_array($in)) ? $in['labels'] : null), $in, false, function($cx, $in) {return ''.htmlentities((string)((isset($in['donate_volunteer']) && is_array($in)) ? $in['donate_volunteer'] : null), ENT_QUOTES, 'UTF-8').'';}).'</a></p>
 						</div>
 
 						<div class="ad-st-protector"></div>

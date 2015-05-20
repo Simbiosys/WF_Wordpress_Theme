@@ -3539,10 +3539,9 @@ div.mce_inline_error {
   .adj-content-mobile {
     padding-left: 0;
     padding-right: 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/proyectos\/WWWFoundation\/web\/WF_WordPress_Theme_Development\/app\/styles\/_m-global_content\.scss}line{font-family:\00003390}}
-  .adj-content-mobile p {
-    min-height: 55px;
+    /*p {
+    	min-height: 55px;
+    }*/
   }
 }
 

@@ -14,5 +14,6 @@
         $renderer = $controller->renderer;
 	
 	echo $renderer->renderTemplate("footer");
+	wp_footer();
 ?>
 
