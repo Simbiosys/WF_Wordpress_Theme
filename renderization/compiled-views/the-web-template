@@ -202,7 +202,9 @@
 					</div>
 					<p class="text-right m-right c-g40 txt-s">'.((isset($in['data']['web']['content']['credits']) && is_array($in['data']['web']['content'])) ? $in['data']['web']['content']['credits'] : null).'</p>
 					' : '
-					<p class="c-contrast no-m-bottom txt-xl">'.((isset($in['data']['about']['content']['highlighted']) && is_array($in['data']['about']['content'])) ? $in['data']['about']['content']['highlighted'] : null).'</p>
+						'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['web']['content']['highlighted']) && is_array($in['data']['web']['content'])) ? $in['data']['web']['content']['highlighted'] : null))) ? '
+						<p class="no-m-bottom txt-xl p-xl-bottom">'.((isset($in['data']['web']['content']['highlighted']) && is_array($in['data']['web']['content'])) ? $in['data']['web']['content']['highlighted'] : null).'</p>
+						' : '').'
 					').'
 
 					<div class="adj-content-mobile post-container">

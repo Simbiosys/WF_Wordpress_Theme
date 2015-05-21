@@ -1,0 +1,124 @@
+	<!-- INTRO BLOCK -->
+	<div class="main-intro-section mintro-section-c-redb txt-c overfh m-xl-bottom">
+		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
+			<h3 class="no-m-top m-xs-bottom fbold">{{data.fundraising.title}}</h3>
+			<h4 class="m-s-bottom m-xs-top">{{#labels}}{{support_us_heading}}{{/labels}}</h4>
+			<div class="c-s-separator-intro c-obj"></div>
+		</div>
+	</div>
+
+	<!--CONTENT BLOCK-->
+
+	<!-- SUBNAVS -->
+	<div class="global-content clearb overfh">
+
+		<div class="sunav-left hidden-sm hidden-xs">
+
+			<div class="c-subnav">
+
+				{{{navigation-support-us}}}
+
+			</div><!--end c-subnav-->
+
+		</div>
+
+		{{>social-m}}
+
+		<div class="container-max-height">
+
+		<div class="container-fluid pos-content p-xxl-bottom main-content-st">
+
+			<div class="row m-l-bottom">
+
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<nav>
+						<ul class="n-breadscrumb">
+							<li class="item-bs displayb"><a href="{{host}}" class="item-a-bs avisibility">{{#labels}}{{home}}{{/labels}}</a></li>
+							<li class="item-bs displayb"><a href="{{host}}/get-involved" class="item-a-bs">{{#labels}}{{support_us_breadcrumb}}{{/labels}}</a></li>
+							<li class="item-bs displayb item-a-bs-active">{{data.fundraising.title}}</li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+			<!--end Breadcrumb-->
+
+
+			<div class="row">
+
+				<div class="col-lg-12 col-md-12 col-sm-12">
+
+					{{#if data.fundraising.image}}
+					<div class="intro-secc-img-big m-s-bottom" style="background-image:url({{data.fundraising.image}});">
+						<div class="intro-sec-img-content hidden-xs">
+							<p class="c-contrast no-m-bottom txt-xl highlighted">{{{data.fundraising.highlight}}}</p>
+						</div>
+						<div class="intro-secc-img-protector hidden-xs"></div>
+					</div>
+					<p class="text-right m-right c-g40 txt-s">{{{data.fundraising.credits}}}</p>
+					{{else}}
+						{{#if data.fundraising.highlight}}
+						<p class="no-m-bottom txt-xl p-xl-bottom">{{{data.fundraising.highlight}}}</p>
+						{{/if}}
+					{{/if}}
+
+				</div>
+
+			</div><!--end row-->
+
+
+			<div class="row b-bottom">
+
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 overfh col-team">
+
+					<div class="team-carousel-content r-pos">
+
+						<div class="team-project-carousel" data-mode="full">
+							{{#data.fundraising.people}}
+							<div class="item">
+								<div class="tpc-photo fleft">
+									<img src="{{image}}" class="img-responsive">
+								</div>
+
+								<div class="tpc-content overfh">
+									<h4 class="no-m-top no-m-bottom">{{name}}</h4>
+									<p class="m-xs-bottom"><a href="mailto:{{email}}" class="avisibility"><span class="icon-mail adj-icon-svg"></span> Send Mail</a></p>
+									{{{description}}}
+									<p class="text-left m-s-top"><a href='{{url}}'>Read more</a></p>
+								</div>
+							</div>
+							{{/data.fundraising.people}}
+
+						</div><!--end carousel-->
+
+						<div class="team-carouse-nav hidden-xs" data-length="{{data.fundraising.people_length}}" data-mode="full">
+							<span class="displayib txt-s uppc c-g60 adj-nav-ind-team">
+							<strong class="current-team txt-m">1</strong> of {{data.fundraising.people_length}} project team members</span>
+
+							<a href="javascript:void(0)" class="team-c-prev project-team-arrow" data-index="1" data-length="{{data.fundraising.people_length}}"><span class="glyphicon glyphicon-menu-left displayib txt-xxl" aria-hidden="true"></span></a>
+							<a href="javascript:void(0)" class="team-c-next project-team-arrow" data-index="1" data-length="{{data.fundraising.people_length}}"><span class="glyphicon glyphicon-menu-right displayib txt-xxl" aria-hidden="true"></span></a>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			{{#if data.fundraising.content}}
+			<div class="row p-xl-bottom">
+				<div class="col-xs-12 post-container">
+					{{{data.fundraising.content}}}
+				</div>
+			</div>
+			{{/if}}
+
+
+		</div><!--end container block-->
+	</div>
+
+
+	</div><!--end max content social-->
+
+
+	<script src="{{path}}/js/project.js"></script>

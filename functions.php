@@ -972,6 +972,12 @@ function person_meta_box_markup($object)
             
             <?php $selected_group = get_post_meta($object->ID, "meta-box-group", true); ?>
             
+            <label for="meta-box-group">Group</label>
+            <select name="meta-box-group" class="w100">
+            	<option value="other" <?= $selected_group == 'other' || $selected_group == '' ? 'selected' : '' ?>>Other</option>
+            	<option value="fundraising" <?= $selected_group == 'fundraising' ? 'selected' : '' ?>>Fundraising</option>
+            </select>
+            
             <fieldset>
             	<legend>Social networks</legend>
 				<label for="meta-box-linkedin">Linkedin</label>
@@ -1034,6 +1040,7 @@ function save_person_meta_box($post_id, $post, $update) {
     save_meta_box_field($post_id, "meta-box-twitter");
     save_meta_box_field($post_id, "meta-box-google");
     save_meta_box_field($post_id, "meta-box-facebook");
+    save_meta_box_field($post_id, "meta-box-group");
 
     $projects = get_projects();
 

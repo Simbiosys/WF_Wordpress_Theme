@@ -43,7 +43,9 @@
 					</div>
 					<p class="text-right m-right c-g40 txt-s">{{{data.content.credits}}}</p>
 					{{else}}
-					<p class="c-contrast no-m-bottom txt-xl">{{{data.about.content.highlighted}}}</p>
+						{{#if data.content.highlighted}}
+						<p class="no-m-bottom txt-xl p-xl-bottom">{{{data.content.highlighted}}}</p>
+						{{/if}}
 					{{/if}}
 
 					<div class="adj-content-mobile post-container">

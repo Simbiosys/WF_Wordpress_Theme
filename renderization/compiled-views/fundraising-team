@@ -132,20 +132,33 @@
     );
     
     return '	<!-- INTRO BLOCK -->
-	<div class="main-intro-section mintro-section-c-green txt-c overfh m-xl-bottom">
+	<div class="main-intro-section mintro-section-c-redb txt-c overfh m-xl-bottom">
 		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
-			<h3 class="no-m-top m-xs-bottom fbold">'.htmlentities((string)((isset($in['data']['content']['title']) && is_array($in['data']['content'])) ? $in['data']['content']['title'] : null), ENT_QUOTES, 'UTF-8').'</h3>
+			<h3 class="no-m-top m-xs-bottom fbold">'.htmlentities((string)((isset($in['data']['fundraising']['title']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['title'] : null), ENT_QUOTES, 'UTF-8').'</h3>
+			<h4 class="m-s-bottom m-xs-top">'.$cx['funcs']['sec']($cx, ((isset($in['labels']) && is_array($in)) ? $in['labels'] : null), $in, false, function($cx, $in) {return ''.htmlentities((string)((isset($in['support_us_heading']) && is_array($in)) ? $in['support_us_heading'] : null), ENT_QUOTES, 'UTF-8').'';}).'</h4>
 			<div class="c-s-separator-intro c-obj"></div>
 		</div>
 	</div>
 
+	<!--CONTENT BLOCK-->
+
 	<!-- SUBNAVS -->
 	<div class="global-content clearb overfh">
 
-		'.'<div class="social-nav hidden-sm hidden-xs">
+		<div class="sunav-left hidden-sm hidden-xs">
+
+			<div class="c-subnav">
+
+				'.((isset($in['navigation-support-us']) && is_array($in)) ? $in['navigation-support-us'] : null).'
+
+			</div><!--end c-subnav-->
+
+		</div>
+
+		'.'<div class="aside-social-unq hidden-xs hidden-sm">
   <div class="c-social">
     <nav>
-      <ul class="social-items pos-snav">
+      <ul class="social-items">
         '.'<li class="p-xs-bottom"><span class="social-title txt-xs c-g40">'.$cx['funcs']['sec']($cx, ((isset($in['labels']) && is_array($in)) ? $in['labels'] : null), $in, false, function($cx, $in) {return ''.htmlentities((string)((isset($in['spread_the_word']) && is_array($in)) ? $in['spread_the_word'] : null), ENT_QUOTES, 'UTF-8').'';}).'</span></li>
 <li class="item-s txt-s"><span class="icon-twitter icon-s-twitter"></span> <a class="item-s-a" href="http://twitter.com/share?url='.htmlentities((string)((isset($in['url']) && is_array($in)) ? $in['url'] : null), ENT_QUOTES, 'UTF-8').'&via=webfoundation">Twitter</a></li>
 <li class="item-s txt-s"><span class="icon-facebook icon-s-facebook"></span> <a class="item-s-a" href="http://www.facebook.com/sharer.php?u='.htmlentities((string)((isset($in['url']) && is_array($in)) ? $in['url'] : null), ENT_QUOTES, 'UTF-8').'">Facebook</a></li>
@@ -157,58 +170,104 @@
 </div>
 '.'
 
-		<!--CONTENT BLOCK-->
 		<div class="container-max-height">
 
 		<div class="container-fluid pos-content p-xxl-bottom main-content-st">
 
-
 			<div class="row m-l-bottom">
+
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					<nav>
 						<ul class="n-breadscrumb">
 							<li class="item-bs displayb"><a href="'.htmlentities((string)((isset($in['host']) && is_array($in)) ? $in['host'] : null), ENT_QUOTES, 'UTF-8').'" class="item-a-bs avisibility">'.$cx['funcs']['sec']($cx, ((isset($in['labels']) && is_array($in)) ? $in['labels'] : null), $in, false, function($cx, $in) {return ''.htmlentities((string)((isset($in['home']) && is_array($in)) ? $in['home'] : null), ENT_QUOTES, 'UTF-8').'';}).'</a></li>
-							<li class="item-bs displayb"><span class="item-a-bs item-a-bs-active">'.htmlentities((string)((isset($in['data']['content']['title']) && is_array($in['data']['content'])) ? $in['data']['content']['title'] : null), ENT_QUOTES, 'UTF-8').'</span></li>
+							<li class="item-bs displayb"><a href="'.htmlentities((string)((isset($in['host']) && is_array($in)) ? $in['host'] : null), ENT_QUOTES, 'UTF-8').'/get-involved" class="item-a-bs">'.$cx['funcs']['sec']($cx, ((isset($in['labels']) && is_array($in)) ? $in['labels'] : null), $in, false, function($cx, $in) {return ''.htmlentities((string)((isset($in['support_us_breadcrumb']) && is_array($in)) ? $in['support_us_breadcrumb'] : null), ENT_QUOTES, 'UTF-8').'';}).'</a></li>
+							<li class="item-bs displayb item-a-bs-active">'.htmlentities((string)((isset($in['data']['fundraising']['title']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['title'] : null), ENT_QUOTES, 'UTF-8').'</li>
 						</ul>
 					</nav>
 				</div>
+
 			</div>
 			<!--end Breadcrumb-->
 
 
 			<div class="row">
 
-				<div class="col-lg-12 col-md-12 col-sm-12 f-merryw no-p-lat-mob">
+				<div class="col-lg-12 col-md-12 col-sm-12">
 
-					'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['content']['image']) && is_array($in['data']['content'])) ? $in['data']['content']['image'] : null))) ? '
-					<div class="intro-secc-img-big m-s-bottom" style="background-image:url('.htmlentities((string)((isset($in['data']['content']['image']) && is_array($in['data']['content'])) ? $in['data']['content']['image'] : null), ENT_QUOTES, 'UTF-8').');">
+					'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['fundraising']['image']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['image'] : null))) ? '
+					<div class="intro-secc-img-big m-s-bottom" style="background-image:url('.htmlentities((string)((isset($in['data']['fundraising']['image']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['image'] : null), ENT_QUOTES, 'UTF-8').');">
 						<div class="intro-sec-img-content hidden-xs">
-							<p class="c-contrast no-m-bottom txt-xl highlighted">'.((isset($in['data']['content']['highlighted']) && is_array($in['data']['content'])) ? $in['data']['content']['highlighted'] : null).'</p>
+							<p class="c-contrast no-m-bottom txt-xl highlighted">'.((isset($in['data']['fundraising']['highlight']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['highlight'] : null).'</p>
 						</div>
 						<div class="intro-secc-img-protector hidden-xs"></div>
 					</div>
-					<p class="text-right m-right c-g40 txt-s">'.((isset($in['data']['content']['credits']) && is_array($in['data']['content'])) ? $in['data']['content']['credits'] : null).'</p>
+					<p class="text-right m-right c-g40 txt-s">'.((isset($in['data']['fundraising']['credits']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['credits'] : null).'</p>
 					' : '
-						'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['content']['highlighted']) && is_array($in['data']['content'])) ? $in['data']['content']['highlighted'] : null))) ? '
-						<p class="no-m-bottom txt-xl p-xl-bottom">'.((isset($in['data']['content']['highlighted']) && is_array($in['data']['content'])) ? $in['data']['content']['highlighted'] : null).'</p>
+						'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['fundraising']['highlight']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['highlight'] : null))) ? '
+						<p class="no-m-bottom txt-xl p-xl-bottom">'.((isset($in['data']['fundraising']['highlight']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['highlight'] : null).'</p>
 						' : '').'
 					').'
 
-					<div class="adj-content-mobile post-container">
-						'.((isset($in['data']['content']['content']) && is_array($in['data']['content'])) ? $in['data']['content']['content'] : null).'
-					</div><!--end adj-content-mobile-->
+				</div>
+
+			</div><!--end row-->
+
+
+			<div class="row b-bottom">
+
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 overfh col-team">
+
+					<div class="team-carousel-content r-pos">
+
+						<div class="team-project-carousel" data-mode="full">
+							'.$cx['funcs']['sec']($cx, ((isset($in['data']['fundraising']['people']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['people'] : null), $in, false, function($cx, $in) {return '
+							<div class="item">
+								<div class="tpc-photo fleft">
+									<img src="'.htmlentities((string)((isset($in['image']) && is_array($in)) ? $in['image'] : null), ENT_QUOTES, 'UTF-8').'" class="img-responsive">
+								</div>
+
+								<div class="tpc-content overfh">
+									<h4 class="no-m-top no-m-bottom">'.htmlentities((string)((isset($in['name']) && is_array($in)) ? $in['name'] : null), ENT_QUOTES, 'UTF-8').'</h4>
+									<p class="m-xs-bottom"><a href="mailto:'.htmlentities((string)((isset($in['email']) && is_array($in)) ? $in['email'] : null), ENT_QUOTES, 'UTF-8').'" class="avisibility"><span class="icon-mail adj-icon-svg"></span> Send Mail</a></p>
+									'.((isset($in['description']) && is_array($in)) ? $in['description'] : null).'
+									<p class="text-left m-s-top"><a href=\''.htmlentities((string)((isset($in['url']) && is_array($in)) ? $in['url'] : null), ENT_QUOTES, 'UTF-8').'\'>Read more</a></p>
+								</div>
+							</div>
+							';}).'
+
+						</div><!--end carousel-->
+
+						<div class="team-carouse-nav hidden-xs" data-length="'.htmlentities((string)((isset($in['data']['fundraising']['people_length']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['people_length'] : null), ENT_QUOTES, 'UTF-8').'" data-mode="full">
+							<span class="displayib txt-s uppc c-g60 adj-nav-ind-team">
+							<strong class="current-team txt-m">1</strong> of '.htmlentities((string)((isset($in['data']['fundraising']['people_length']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['people_length'] : null), ENT_QUOTES, 'UTF-8').' project team members</span>
+
+							<a href="javascript:void(0)" class="team-c-prev project-team-arrow" data-index="1" data-length="'.htmlentities((string)((isset($in['data']['fundraising']['people_length']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['people_length'] : null), ENT_QUOTES, 'UTF-8').'"><span class="glyphicon glyphicon-menu-left displayib txt-xxl" aria-hidden="true"></span></a>
+							<a href="javascript:void(0)" class="team-c-next project-team-arrow" data-index="1" data-length="'.htmlentities((string)((isset($in['data']['fundraising']['people_length']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['people_length'] : null), ENT_QUOTES, 'UTF-8').'"><span class="glyphicon glyphicon-menu-right displayib txt-xxl" aria-hidden="true"></span></a>
+						</div>
+
+					</div>
 
 				</div>
 
 			</div>
 
-		</div>
-		<!--end container block-->
+			'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['fundraising']['content']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['content'] : null))) ? '
+			<div class="row p-xl-bottom">
+				<div class="col-xs-12 post-container">
+					'.((isset($in['data']['fundraising']['content']) && is_array($in['data']['fundraising'])) ? $in['data']['fundraising']['content'] : null).'
+				</div>
+			</div>
+			' : '').'
 
-		</div>
+
+		</div><!--end container block-->
+	</div>
 
 
-	</div><!--end global content-->
+	</div><!--end max content social-->
+
+
+	<script src="'.htmlentities((string)((isset($in['path']) && is_array($in)) ? $in['path'] : null), ENT_QUOTES, 'UTF-8').'/js/project.js"></script>
 ';
 }
 ?>
