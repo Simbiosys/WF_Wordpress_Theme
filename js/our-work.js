@@ -64,7 +64,7 @@ $(document).ready(function() {
   //Carousel init
   $(".carousel-about-foundation").owlCarousel();
 
-  var secc = getUrlParameter('section');
+  var secc = getUrlParameter('gl');
 
   if(secc != undefined) {
     //This function is for avoid triggering the event before the handler is attached. On this case the solution is to use setTimeout:

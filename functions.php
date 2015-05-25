@@ -1367,6 +1367,7 @@ function add_query_vars($aVars) {
 	$aVars[] = "pr";
 	$aVars[] = "starts";
 	$aVars[] = "ends";
+	$aVars[] = "gl";
 	return $aVars;
 }
 
