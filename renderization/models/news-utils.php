@@ -13,6 +13,11 @@ class NewsUtil {
    	   	$starts = get_query_var('starts', NULL);
    	   	$ends = get_query_var('ends', NULL);
    	   	
+   	   	$_page = get_query_var('pa', NULL);
+		
+		if ($_page)
+			$page = $_page;
+			
    	   	$search = get_query_var('s', NULL);
    	   	
 		$args = array();
@@ -103,7 +108,7 @@ class NewsUtil {
   			usort($news, array('NewsUtil', 'cmpNews'));
   		}
   	
-  		if (!empty($project_id) || !empty($starts) || !empty($ends)) {
+  		if (!empty($page) && $page > 1 && (!empty($project_id) || !empty($starts) || !empty($ends))) {
   			for ($i = 0; $i < count($news); $i++) {
   				$news[$i]["image"] = NULL;
   			}
