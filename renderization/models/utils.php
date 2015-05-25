@@ -101,8 +101,8 @@ function getPostInfo($post, $meta = NULL) {
 	
 	$image = wp_get_attachment_url(get_post_thumbnail_id($post_id));
 
-	if (!$image && $processed_post)
-		$image = $processed_post->find('img', 0)->src;
+	//if (!$image && $processed_post)
+	//	$image = $processed_post->find('img', 0)->src;
 		
 	if ($image && $image[0] == "/")
 		$image = get_home_url() . $image;

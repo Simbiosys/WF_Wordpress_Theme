@@ -88,5 +88,21 @@
 
   });
 </script>
+<script src="{{path}}/js/vendor/classie.js"></script>
+<script src="{{path}}/js/vendor/selectFx.js"></script>
+<script>
+	(function() {
+		[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
+			new SelectFx(el);
+		} );
+	})();
+
+	$(document).ready(function() {
+		$('.cs-options').on("click", function() {
+			var urlGo = $(".cs-options ul").find("li.cs-selected").attr("data-value");
+			window.location.href = urlGo;
+		});
+	});
+</script>
 </body>
 </html>

@@ -34,17 +34,15 @@
 
 			<div class="row">
 
-				<div class="col-lg-12 col-md-12 col-sm-12">
+				<div class="col-lg-12 col-md-12 col-sm-12 hero-project-container">
 
 					<div class="hero-project" style="background-image: url({{data.project.image}});">
 
-						<div class="h-p-intro">
-
+						<div class="h-p-intro hidden-xs">
 							<header class="r-pos adj-pos-header-project">
 								<h4 class="c-contrast txt-xxl fbold displayb h-p-i-header">{{data.project.name}}</h4>
 								<span class="h-p-i-arrow"></span>
 							</header>
-
 							<div class="h-p-i-content">
 								{{{data.project.description}}}
 								{{#if data.project.only_url}}
@@ -56,11 +54,27 @@
 									{{/if}}
 								{{/if}}
 							</div>
-
 						</div>
-
+						<p class="text-right m-s-top m-right c-g40 txt-s hidden-sm hidden-md hidden-lg img-credits background">{{{data.project.credits}}}</p>
 					</div>
-					<p class="text-right m-s-top m-right c-g40 txt-s">{{{data.project.credits}}}</p>
+					<p class="text-right m-s-top m-right c-g40 txt-s hidden-xs">{{{data.project.credits}}}</p>
+
+					<div class="h-p-intro hidden-sm hidden-md hidden-lg">
+						<header class="r-pos adj-pos-header-project">
+							<h4 class="c-contrast txt-xxl fbold displayb h-p-i-header">{{data.project.name}}</h4>
+						</header>
+						<div class="h-p-i-content">
+							{{{data.project.description}}}
+							{{#if data.project.only_url}}
+								{{#if data.project.url}}
+									<a href="{{data.project.url}}" target="_blank" class="wf-btn wf-btn-success txt-c m-l-top m-s-bottom">{{#labels}}{{visit_microsite}}{{/labels}}</a>
+									<span class="m-s-top displayb txt-c txt-s c-g60 m-l-bottom"><strong>{{#labels}}{{note}}{{/labels}}:</strong> {{#labels}}{{external_link}}{{/labels}}.</span>
+								{{else}}
+									<a href="#more_info" class="wf-btn wf-btn-success txt-c m-l-top m-s-bottom">{{#labels}}{{read_more}}{{/labels}}</a>
+								{{/if}}
+							{{/if}}
+						</div>
+					</div>
 
 				</div>
 
@@ -97,7 +111,7 @@
 
 						</div><!--end carousel-->
 
-						<div class="team-carouse-nav hidden-xs" data-length="{{data.project.people_length}}" {{^data.project.further}}data-mode="full"{{/data.project.further}}>
+						<div class="team-carouse-nav" data-length="{{data.project.people_length}}" {{^data.project.further}}data-mode="full"{{/data.project.further}}>
 							<span class="displayib txt-s uppc c-g60 adj-nav-ind-team">
 							<strong class="current-team txt-m">1</strong> of {{data.project.people_length}} project team members</span>
 

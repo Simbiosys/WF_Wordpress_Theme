@@ -1,3 +1,5 @@
+{{>nav-mobile-about}}
+
 	<!-- INTRO BLOCK -->
 	<div class="main-intro-section mintro-section-c-green txt-c overfh m-xl-bottom">
 		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
@@ -57,9 +59,10 @@
 					<p class="text-right m-right c-g40 txt-s">{{{data.about.content.credits}}}</p>
 					{{else}}
 						{{#if data.about.content.highlighted}}
-						<p class="no-m-bottom txt-xl p-xl-bottom">{{{data.about.content.highlighted}}}</p>
+						<p class="no-m-bottom txt-xl p-xl-bottom hidden-xs">{{{data.about.content.highlighted}}}</p>
 						{{/if}}
 					{{/if}}
+					<p class="no-m-bottom txt-l p-s-bottom adj-content-mobile hidden-sm hidden-md hidden-lg">{{{data.about.content.highlighted}}}</p>
 
 					<div class="adj-content-mobile post-container">
 						{{{data.about.content.content}}}

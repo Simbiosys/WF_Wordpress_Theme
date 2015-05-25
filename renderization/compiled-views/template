@@ -190,9 +190,10 @@
 					<p class="text-right m-right c-g40 txt-s">'.((isset($in['data']['content']['credits']) && is_array($in['data']['content'])) ? $in['data']['content']['credits'] : null).'</p>
 					' : '
 						'.(($cx['funcs']['ifvar']($cx, ((isset($in['data']['content']['highlighted']) && is_array($in['data']['content'])) ? $in['data']['content']['highlighted'] : null))) ? '
-						<p class="no-m-bottom txt-xl p-xl-bottom">'.((isset($in['data']['content']['highlighted']) && is_array($in['data']['content'])) ? $in['data']['content']['highlighted'] : null).'</p>
+						<p class="no-m-bottom txt-xl p-xl-bottom hidden-xs">'.((isset($in['data']['content']['highlighted']) && is_array($in['data']['content'])) ? $in['data']['content']['highlighted'] : null).'</p>
 						' : '').'
 					').'
+					<p class="no-m-bottom txt-l p-s-bottom adj-content-mobile hidden-sm hidden-md hidden-lg">'.((isset($in['data']['content']['highlighted']) && is_array($in['data']['content'])) ? $in['data']['content']['highlighted'] : null).'</p>
 
 					<div class="adj-content-mobile post-container">
 						'.((isset($in['data']['content']['content']) && is_array($in['data']['content'])) ? $in['data']['content']['content'] : null).'

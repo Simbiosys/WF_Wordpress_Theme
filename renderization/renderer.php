@@ -44,7 +44,7 @@ class Renderer {
 			$renderer = include($fileCompiledTemplate);
 
 			$navigation = wp_nav_menu(array('theme_location' => 'primary', 'echo' => 0));
-			$navigation_about_us = wp_nav_menu(array('menu' => 'Abous-Us-Menu', 'echo' => 0));
+			$navigation_about_us = wp_nav_menu(array('menu' => 'About-Us-Menu', 'echo' => 0));
 			$navigation_contact_us = wp_nav_menu(array('menu' => 'Contact-Us-Menu', 'echo' => 0));
 			$navigation_the_web = wp_nav_menu(array('menu' => 'The-Web-Menu', 'echo' => 0));
 			$navigation_support_us = wp_nav_menu(array('menu' => 'Support-Us-Menu', 'echo' => 0));
@@ -56,6 +56,11 @@ class Renderer {
 			$pageContent["navigation-contact-us"] = $navigation_contact_us;
 			$pageContent["navigation-the-web"] = $navigation_the_web;
 			$pageContent["navigation-support-us"] = $navigation_support_us;
+			
+			$pageContent["navigation-mobile-about-us"] = $this->getMenu('About-Us-Menu');
+			$pageContent["navigation-mobile-support-us"] = $this->getMenu('Support-Us-Menu');
+			$pageContent["navigation-mobile-contact-us"] = $this->getMenu('Contact-Us-Menu');
+			$pageContent["navigation-mobile-the-web"] = $this->getMenu('The-Web-Menu');
 			
 			$labels = $this->loadLabels("en");
 			
@@ -72,6 +77,22 @@ class Renderer {
 		else {
 			return false;
 		}
+	}
+	
+	private function getMenu($name) {
+		$menu = wp_get_nav_menu_object ($name);
+    	$menu_items = wp_get_nav_menu_items($menu->term_id);
+    		
+    	$items = array();
+    	
+    	foreach ((array) $menu_items as $key => $menu_item) {
+    		array_push($items, array(
+    			"title" => $menu_item->title,
+    			"url" => $menu_item->url
+    		));
+    	}
+    	
+    	return $items;
 	}
 
 	private function loadData($templateName, $default, $labels) {

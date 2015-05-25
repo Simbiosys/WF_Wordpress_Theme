@@ -1,0 +1,12 @@
+<div class="container visible-xs visible-sm p-xxl-top p-xxl-bottom">
+	<div class="row">
+		<div class="col-lg-12">
+			<select class="cs-select cs-skin-elastic" id="snav-mobile">
+				<option  value="" disabled selected>Go to</option>
+				{{#navigation-mobile-about-us}}
+					<option value="{{url}}" class="snav-go">{{title}}</option>
+				{{/navigation-mobile-about-us}}
+			</select>
+		</div>
+	</div>
+</div>

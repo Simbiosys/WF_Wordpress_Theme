@@ -15,9 +15,9 @@ class NewsUtil {
    	   	
    	   	$search = get_query_var('s', NULL);
    	   	
+		$args = array();
+   	   	
    	   	if (empty($search)) {
-			$args = NULL;
-		
 			$starts_initial = $starts;
 			$ends_initial = $ends;
 		
@@ -48,18 +48,22 @@ class NewsUtil {
 				$starts = date('F', $starts) . ", " . date('Y', $starts);
 				$ends = date('F', $ends) . ", " . date('Y', $ends);
 			}
+			
+			$args['orderby'] = 'post_date';
+			$args['order'] = 'DESC';
 		
 			if ($category) {
 				$category_id = getCategoryIdByName($category);
 				$args['category'] = $category_id;
 			}
-			
+	
 			if (empty($project_id)) {
 				$news = getPostsByType($post_type, NULL, -1, $args);
 			}
 			else {
-				if (is_int($project_id))
-					$news = getPostsByTypeAndMeta($post_type, "meta-box-project-$project_id", "true", NULL, $args);
+				if (is_numeric($project_id)) {
+					$news = getPostsByTypeAndMeta($post_type, "meta-box-project-$project_id", "true", NULL, $args);	
+				}
 				else {
 					$news = array();
 					
@@ -98,7 +102,13 @@ class NewsUtil {
   		if ($page_name == 'research' && $page < 1) {
   			usort($news, array('NewsUtil', 'cmpNews'));
   		}
-  		 	   	
+  	
+  		if (!empty($project_id) || !empty($starts) || !empty($ends)) {
+  			for ($i = 0; $i < count($news); $i++) {
+  				$news[$i]["image"] = NULL;
+  			}
+  		}
+  	 	   	
    	   	$highlighted_news = 4;
    	   	$rest_news = 9;
    	   	
@@ -347,8 +357,8 @@ class NewsUtil {
 	}
 	
 	function cmpNews($a, $b) {
-		$a_date = $a["date"];
-		$b_date = $b["date"];
+		$a_date = strtotime($a["date"]);
+		$b_date = strtotime($b["date"]);
 
 		$a_tag = in_array("Featured", $a["tags"]) ? 1 : 0;
 		$b_tag = in_array("Featured", $b["tags"]) ? 1 : 0;

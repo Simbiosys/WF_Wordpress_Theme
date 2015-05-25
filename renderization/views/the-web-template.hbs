@@ -1,3 +1,5 @@
+{{>nav-mobile-the-web}}
+
 	<!-- INTRO BLOCK -->
 	<div class="main-intro-section mintro-section-c-green txt-c overfh m-xl-bottom">
 		<div class="intro-section displayb c-obj c-contrast overfh p-xxl-top p-xxl-bottom">
@@ -33,7 +35,7 @@
 					<nav>
 						<ul class="n-breadscrumb">
 							<li class="item-bs displayb"><a href="{{host}}" class="item-a-bs avisibility">{{#labels}}{{home}}{{/labels}}</a></li>
-							<li class="item-bs displayb"><a href="{{host}}/the-web" class="item-a-bs">{{#labels}}{{the_web_breadcrumb}}{{/labels}}</a></li>
+							<li class="item-bs displayb"><a href="{{host}}/about/vision/history-of-the-web" class="item-a-bs">{{#labels}}{{the_web_breadcrumb}}{{/labels}}</a></li>
 							<li class="item-bs displayb"><span class="item-a-bs item-a-bs-active">{{data.web.content.title}}</span></li>
 						</ul>
 					</nav>
@@ -48,7 +50,7 @@
 
 
 					{{#if data.web.content.image}}
-					<div class="intro-secc-img-big m-s-bottom" style="background-image:url({{data.web.content.image}});">
+					<div class="intro-secc-img-large m-s-bottom" style="background-image:url({{data.web.content.image}});">
 						<div class="intro-sec-img-content hidden-xs">
 							<p class="c-contrast no-m-bottom txt-xl highlighted">{{{data.web.content.highlighted}}}</p>
 						</div>
@@ -57,9 +59,10 @@
 					<p class="text-right m-right c-g40 txt-s">{{{data.web.content.credits}}}</p>
 					{{else}}
 						{{#if data.web.content.highlighted}}
-						<p class="no-m-bottom txt-xl p-xl-bottom">{{{data.web.content.highlighted}}}</p>
+						<p class="no-m-bottom txt-xl p-xl-bottom hidden-xs">{{{data.web.content.highlighted}}}</p>
 						{{/if}}
 					{{/if}}
+					<p class="no-m-bottom txt-l p-s-bottom adj-content-mobile hidden-sm hidden-md hidden-lg">{{{data.web.content.highlighted}}}</p>
 
 					<div class="adj-content-mobile post-container">
 						{{{data.web.content.content}}}
